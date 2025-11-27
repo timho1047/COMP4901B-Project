@@ -152,5 +152,7 @@ if __name__ == "__main__":
             "eval.py",
             "--run_name",
             args.run_name,
+            "--result_dir",
+            OUTPUT_DIR.as_posix(),
         ]
     )
