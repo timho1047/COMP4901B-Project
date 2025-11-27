@@ -1,0 +1,1168 @@
+{
+  "exact_match": 0.41,
+  "f1_score": 0.6038842921784098,
+  "total_count": 100,
+  "detailed_results": [
+    {
+      "id": "nq_validation_0",
+      "question": "when was the last time anyone was on the moon?",
+      "student_answer": "The last time anyone was on the moon was <answer>December 14, 1972</answer> during the Apollo 17 mission.",
+      "extracted_answer": "December 14, 1972",
+      "ground_truths": [
+        "14 December 1972 UTC",
+        "December 1972"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.8571428571428571
+    },
+    {
+      "id": "nq_validation_1",
+      "question": "who wrote he ain't heavy he's my brother lyrics?",
+      "student_answer": "The lyrics for \"He Ain't Heavy, He's My Brother\" were written by <answer>Bob Russell</answer>.",
+      "extracted_answer": "Bob Russell",
+      "ground_truths": [
+        "Bobby Scott",
+        "Bob Russell"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_2",
+      "question": "how many seasons of the bastard executioner are there?",
+      "student_answer": "There is <answer>1</answer> season of The Bastard Executioner.",
+      "extracted_answer": "1",
+      "ground_truths": [
+        "one",
+        "one season"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_3",
+      "question": "when did the eagles win last super bowl?",
+      "student_answer": "The Philadelphia Eagles last won the Super Bowl on <answer>February 9, 2025</answer>.",
+      "extracted_answer": "February 9, 2025",
+      "ground_truths": [
+        "2017"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_4",
+      "question": "who won last year's ncaa women's basketball?",
+      "student_answer": "Last year's NCAA women's basketball champion was <answer>South Carolina</answer>.",
+      "extracted_answer": "South Carolina",
+      "ground_truths": [
+        "South Carolina"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_5",
+      "question": "when did the isle of wight become an island?",
+      "student_answer": "The Isle of Wight became an island <answer>about 8,000-9,000 years ago</answer> at the end of the last ice age when rising sea levels flooded the Solent river valley, separating it from mainland Britain.",
+      "extracted_answer": "about 8,000-9,000 years ago",
+      "ground_truths": [
+        "During the last Ice Age"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_6",
+      "question": "love yourself by justin bieber is about who?",
+      "student_answer": "Justin Bieber's song \"Love Yourself\" is widely believed to be about <answer>Selena Gomez</answer>, his most serious and long-term ex-girlfriend. Bieber has confirmed the song is about \"someone in my past\" but has intentionally kept the specific identity ambiguous, though evidence points strongly to Gomez given their high-profile on-again/off-again relationship.",
+      "extracted_answer": "Selena Gomez",
+      "ground_truths": [
+        "Rihanna"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_7",
+      "question": "who was the ruler of england in 1616?",
+      "student_answer": "The ruler of England in 1616 was <answer>James I</answer> (also known as James VI of Scotland).",
+      "extracted_answer": "James I",
+      "ground_truths": [
+        "James I"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_8",
+      "question": "what is the hot coffee mod in san andreas?",
+      "student_answer": "The Hot Coffee mod was <answer>a modification that unlocked a hidden sex minigame</answer> in GTA San Andreas.",
+      "extracted_answer": "a modification that unlocked a hidden sex minigame",
+      "ground_truths": [
+        "a normally inaccessible mini-game"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.2222222222222222
+    },
+    {
+      "id": "nq_validation_9",
+      "question": "what is the maximum data rate for the 802.11a standard select one?",
+      "student_answer": "The maximum data rate for the 802.11a standard is <answer>54 Mbps</answer>.",
+      "extracted_answer": "54 Mbps",
+      "ground_truths": [
+        "54 Mbit/s"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_10",
+      "question": "which state is located in the centre of india?",
+      "student_answer": "The state located in the centre of India is <answer>Maharashtra</answer>.",
+      "extracted_answer": "Maharashtra",
+      "ground_truths": [
+        "Chhattisgarh",
+        "Madhya Pradesh"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_11",
+      "question": "who sang i ran all the way home?",
+      "student_answer": "The song \"I Ran All the Way Home\" was sung by <answer>The Impalas</answer>.",
+      "extracted_answer": "The Impalas",
+      "ground_truths": [
+        "The Impalas"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_12",
+      "question": "where did the last name wallace come from?",
+      "student_answer": "The last name Wallace originated from the Anglo-Norman French word \"Waleis\" meaning \"Welshman\" or \"foreigner,\" and it's primarily a Scottish surname that first appeared in Scotland in the 12th century. <answer>Anglo-Norman French word \"Waleis\" meaning \"Welshman\" or \"foreigner\"</answer>",
+      "extracted_answer": "Anglo-Norman French word \"Waleis\" meaning \"Welshman\" or \"foreigner\"",
+      "ground_truths": [
+        "a Scottish surname"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_13",
+      "question": "who was the actor that played ben stone on law and order?",
+      "student_answer": "The actor who played Ben Stone on Law & Order was <answer>Michael Moriarty</answer>.",
+      "extracted_answer": "Michael Moriarty",
+      "ground_truths": [
+        "Michael Moriarty"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_14",
+      "question": "who does the voice of nala in the lion king?",
+      "student_answer": "The voice of adult Nala in the original 1994 Lion King is <answer>Moira Kelly</answer>.",
+      "extracted_answer": "Moira Kelly",
+      "ground_truths": [
+        "Niketa Calame",
+        "Sally Dworsky",
+        "Moira Kelly",
+        "Laura Williams"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_15",
+      "question": "who plays gram on the young and the restless?",
+      "student_answer": "The character Gram on The Young and the Restless is played by <answer>Patrika Darbo</answer>.",
+      "extracted_answer": "Patrika Darbo",
+      "ground_truths": [
+        "Max Shippee"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_16",
+      "question": "what is the oath that new citizens take?",
+      "student_answer": "The oath that new citizens take is called the <answer>Naturalization Oath of Allegiance to the United States of America</answer>.",
+      "extracted_answer": "Naturalization Oath of Allegiance to the United States of America",
+      "ground_truths": [
+        "United States Oath of Allegiance"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.7142857142857143
+    },
+    {
+      "id": "nq_validation_17",
+      "question": "who is under the mask of darth vader?",
+      "student_answer": "The person under Darth Vader's mask is <answer>Anakin Skywalker</answer>.",
+      "extracted_answer": "Anakin Skywalker",
+      "ground_truths": [
+        "Anakin Skywalker"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_18",
+      "question": "who had a baby at 100 in the bible?",
+      "student_answer": "The person who had a baby at 100 in the Bible was <answer>Abraham</answer>.",
+      "extracted_answer": "Abraham",
+      "ground_truths": [
+        "Sarah",
+        "Abraham"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_19",
+      "question": "what age do you need to be to buy a bb gun?",
+      "student_answer": "The minimum age to buy a BB gun varies by state, but the most common requirement is <answer>18 years old</answer>. Some states have different requirements ranging from 12 to 21 years old.",
+      "extracted_answer": "18 years old",
+      "ground_truths": [
+        "18"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_20",
+      "question": "ethiopia flight 961 crashes in to the sea?",
+      "student_answer": "Ethiopian Airlines Flight 961 was hijacked on November 23, 1996, and crashed into the Indian Ocean near Grande Comore, Comoros Islands, due to fuel exhaustion. The plane crash-landed in the water, resulting in 125 fatalities out of 175 people on board. <answer>Yes</answer>",
+      "extracted_answer": "Yes",
+      "ground_truths": [
+        "23 November 1996"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_21",
+      "question": "where was percy jackson and the olympians filmed?",
+      "student_answer": "Percy Jackson and the Olympians was primarily filmed in and around Vancouver, British Columbia, Canada. Key filming locations included:\n\n- **Vancouver area**: Hycroft Manor (Yancy Academy), Mammoth Studios in Burnaby (using The Volume technology), Simon Fraser University, Vancouver's Financial District\n- **Camp Half-Blood locations**: Minaty Bay on Howe Sound for the shores, and private property in Aldergrove for camp sets\n- **Other BC locations**: Westminster Pier Park in New Westminster, Ricky's All Day Grill in Hope, Wheelz Restaurant in Deroche\n\nThe production utilized extensive CGI and virtual environments mixed with real British Columbia locations to create the mythological settings.\n\n<answer>Vancouver, British Columbia, Canada</answer>",
+      "extracted_answer": "Vancouver, British Columbia, Canada",
+      "ground_truths": [
+        "Vancouver",
+        "Mission, British Columbia"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5714285714285715
+    },
+    {
+      "id": "nq_validation_22",
+      "question": "how many seasons of vampire diaries r there?",
+      "student_answer": "There are <answer>8</answer> seasons of The Vampire Diaries.",
+      "extracted_answer": "8",
+      "ground_truths": [
+        "eight",
+        "8"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_23",
+      "question": "how many episodes are there in dragon ball z?",
+      "student_answer": "Dragon Ball Z has <answer>291</answer> episodes.",
+      "extracted_answer": "291",
+      "ground_truths": [
+        "291 episodes",
+        "291"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_24",
+      "question": "who plays auggie in the movie the wonder?",
+      "student_answer": "The character Auggie in the movie Wonder is played by <answer>Jacob Tremblay</answer>.",
+      "extracted_answer": "Jacob Tremblay",
+      "ground_truths": [
+        "Jacob Tremblay"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_25",
+      "question": "when was the first australian prime minister elected?",
+      "student_answer": "The first Australian prime minister, Edmund Barton, was first elected in the <answer>March 29-30, 1901</answer> federal election.",
+      "extracted_answer": "March 29-30, 1901",
+      "ground_truths": [
+        "Sir Edmund Barton",
+        "1901"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_26",
+      "question": "who plays matthew on anne with an e?",
+      "student_answer": "The actor who plays Matthew on Anne with an E is <answer>R.H. Thomson</answer>.",
+      "extracted_answer": "R.H. Thomson",
+      "ground_truths": [
+        "R. H. Thomson"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.4
+    },
+    {
+      "id": "nq_validation_27",
+      "question": "who is the girl in green day 21 guns?",
+      "student_answer": "The girl in Green Day's \"21 Guns\" music video is <answer>Lisa Stelly</answer> (credited as Lisa Osbourne), who plays the character Gloria.",
+      "extracted_answer": "Lisa Stelly",
+      "ground_truths": [
+        "Lisa Stelly"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_28",
+      "question": "who plays joker in batman the dark knight?",
+      "student_answer": "The Joker in Batman: The Dark Knight was played by <answer>Heath Ledger</answer>.",
+      "extracted_answer": "Heath Ledger",
+      "ground_truths": [
+        "Ledger"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_29",
+      "question": "when was the south asian association for regional co-operation (saarc) formed?",
+      "student_answer": "The South Asian Association for Regional Co-operation (SAARC) was formed on <answer>December 8, 1985</answer>.",
+      "extracted_answer": "December 8, 1985",
+      "ground_truths": [
+        "December 1985",
+        "8 December 1985"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_30",
+      "question": "when was the first hunger games book published?",
+      "student_answer": "The first Hunger Games book was published on <answer>September 14, 2008</answer>.",
+      "extracted_answer": "September 14, 2008",
+      "ground_truths": [
+        "September 14, 2008",
+        "2008"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_31",
+      "question": "who did bette midler portray in the rose?",
+      "student_answer": "Bette Midler portrayed <answer>Mary Rose Foster</answer> in the 1979 film \"The Rose\".",
+      "extracted_answer": "Mary Rose Foster",
+      "ground_truths": [
+        "Mary Rose Foster"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_32",
+      "question": "who is the lead singer of depeche mode?",
+      "student_answer": "The lead singer of Depeche Mode is <answer>Dave Gahan</answer>.",
+      "extracted_answer": "Dave Gahan",
+      "ground_truths": [
+        "David Gahan"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_33",
+      "question": "where did the butchers in the slaughterhouse cases live?",
+      "student_answer": "The butchers in the Slaughterhouse Cases lived in <answer>New Orleans, Louisiana</answer>.",
+      "extracted_answer": "New Orleans, Louisiana",
+      "ground_truths": [
+        "New Orleans"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.8
+    },
+    {
+      "id": "nq_validation_34",
+      "question": "who developed the concept of total quality management?",
+      "student_answer": "The concept of Total Quality Management was developed by <answer>Armand Feigenbaum</answer>.",
+      "extracted_answer": "Armand Feigenbaum",
+      "ground_truths": [
+        "W. Edwards Deming"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_35",
+      "question": "who wrote cant get you out of my head lyrics?",
+      "student_answer": "The lyrics for \"Can't Get You Out of My Head\" were written by <answer>Cathy Dennis and Rob Davis</answer>.",
+      "extracted_answer": "Cathy Dennis and Rob Davis",
+      "ground_truths": [
+        "Cathy Dennis and Rob Davis",
+        "Rob Davis",
+        "Cathy Dennis"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_36",
+      "question": "where does no game no life anime end?",
+      "student_answer": "The No Game No Life anime ends at <answer>Volume 3</answer> of the light novel series.",
+      "extracted_answer": "Volume 3",
+      "ground_truths": [
+        "the Elkia Federation",
+        "the sixth volume"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_37",
+      "question": "when did taylor swift's first album release?",
+      "student_answer": "Taylor Swift's first album was released on <answer>October 24, 2006</answer>.",
+      "extracted_answer": "October 24, 2006",
+      "ground_truths": [
+        "October 24, 2006",
+        "2005"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_38",
+      "question": "what are the three fifty shades of grey books?",
+      "student_answer": "The three Fifty Shades of Grey books are <answer>Fifty Shades of Grey, Fifty Shades Darker, and Fifty Shades Freed</answer>.",
+      "extracted_answer": "Fifty Shades of Grey, Fifty Shades Darker, and Fifty Shades Freed",
+      "ground_truths": [
+        "Fifty Shades of Grey",
+        "Fifty Shades Darker",
+        "Fifty Shades Freed"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5333333333333333
+    },
+    {
+      "id": "nq_validation_39",
+      "question": "who has the power (judicial) to make decisions in courts of law?",
+      "student_answer": "The judicial power to make decisions in courts of law is held by <answer>judges</answer>.",
+      "extracted_answer": "judges",
+      "ground_truths": [
+        "judges"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_40",
+      "question": "what are the ranks in the us navy?",
+      "student_answer": "The US Navy ranks include Enlisted (E-1 to E-9) and Officer (O-1 to O-10) ranks. Enlisted ranks start with Seaman Recruit (E-1) through Master Chief Petty Officer (E-9). Officer ranks start with Ensign (O-1) through Admiral (O-10). <answer>Enlisted: Seaman Recruit through Master Chief Petty Officer; Officer: Ensign through Admiral</answer>",
+      "extracted_answer": "Enlisted: Seaman Recruit through Master Chief Petty Officer; Officer: Ensign through Admiral",
+      "ground_truths": [
+        "E-8s senior chief petty officer",
+        "E-9s master chief petty officer"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.47058823529411764
+    },
+    {
+      "id": "nq_validation_41",
+      "question": "i was a great islamic scholar and mathematician who died in 1131 ce?",
+      "student_answer": "The great Islamic scholar and mathematician who died in 1131 CE was <answer>Omar Khayyam</answer>.",
+      "extracted_answer": "Omar Khayyam",
+      "ground_truths": [
+        "Omar Khayyam"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_42",
+      "question": "who is the coach for the ottawa senators?",
+      "student_answer": "The current head coach of the Ottawa Senators is <answer>Travis Green</answer>.",
+      "extracted_answer": "Travis Green",
+      "ground_truths": [
+        "Guy Boucher"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_43",
+      "question": "last episode of what happens to my family?",
+      "student_answer": "The last episode of \"What Happens to My Family?\" was Episode 53, which aired on <answer>February 15, 2015</answer>.",
+      "extracted_answer": "February 15, 2015",
+      "ground_truths": [
+        "53"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_44",
+      "question": "when is the last time the vikings were in the nfc championship?",
+      "student_answer": "The Minnesota Vikings were last in the NFC Championship game on <answer>January 21, 2018</answer>.",
+      "extracted_answer": "January 21, 2018",
+      "ground_truths": [
+        "1976",
+        "2017/18"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_45",
+      "question": "what are the colors of the netherlands flag?",
+      "student_answer": "The Netherlands flag has three horizontal stripes in the colors <answer>red, white, and blue</answer>.",
+      "extracted_answer": "red, white, and blue",
+      "ground_truths": [
+        "blue",
+        "white",
+        "red"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.4
+    },
+    {
+      "id": "nq_validation_46",
+      "question": "where is lord's prayer found in bible?",
+      "student_answer": "The Lord's Prayer is found in <answer>Matthew 6:9-13 and Luke 11:2-4</answer>.",
+      "extracted_answer": "Matthew 6:9-13 and Luke 11:2-4",
+      "ground_truths": [
+        "in the Gospel of Luke"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.22222222222222224
+    },
+    {
+      "id": "nq_validation_47",
+      "question": "when was the last time oklahoma won a national championship in football?",
+      "student_answer": "The last time Oklahoma won a national championship in football was <answer>2000</answer>.",
+      "extracted_answer": "2000",
+      "ground_truths": [
+        "2003",
+        "2000"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_48",
+      "question": "location of the ten commandments in the bible?",
+      "student_answer": "The Ten Commandments are located in <answer>Exodus 20:1-17 and Deuteronomy 5:6-21</answer>.",
+      "extracted_answer": "Exodus 20:1-17 and Deuteronomy 5:6-21",
+      "ground_truths": [
+        "Exodus",
+        "Deuteronomy"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.33333333333333337
+    },
+    {
+      "id": "nq_validation_49",
+      "question": "where did the allies go after north africa?",
+      "student_answer": "After the North Africa campaign ended in May 1943, the Allies went to <answer>Sicily and Italy</answer>.",
+      "extracted_answer": "Sicily and Italy",
+      "ground_truths": [
+        "Italy",
+        "the Italian Campaign"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_50",
+      "question": "what is the meaning of veronica in english?",
+      "student_answer": "The name Veronica has two main meanings in English: \"she who brings victory\" (from Greek origins) and \"true image\" (from Latin \"vera icon\"). The most commonly accepted meaning is <answer>she who brings victory</answer>.",
+      "extracted_answer": "she who brings victory",
+      "ground_truths": [
+        "she who brings victory"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_51",
+      "question": "what is the name of the main artery which takes blood from the heart to the body?",
+      "student_answer": "The main artery that takes blood from the heart to the body is the <answer>aorta</answer>.",
+      "extracted_answer": "aorta",
+      "ground_truths": [
+        "The aorta",
+        "aorta"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_52",
+      "question": "who played solomon in little house on the prairie?",
+      "student_answer": "The character Solomon in Little House on the Prairie was played by <answer>Todd Bridges</answer>.",
+      "extracted_answer": "Todd Bridges",
+      "ground_truths": [
+        "Todd Bridges"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_53",
+      "question": "who does eric end up with in that 70s show?",
+      "student_answer": "Eric Forman ends up with <answer>Donna Pinciotti</answer>.",
+      "extracted_answer": "Donna Pinciotti",
+      "ground_truths": [
+        "Donna"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_54",
+      "question": "an object that moves around an external axis is said to be?",
+      "student_answer": "An object that moves around an external axis is said to be <answer>revolving</answer> (or in revolution).",
+      "extracted_answer": "revolving",
+      "ground_truths": [
+        "revolution or orbital revolution",
+        "orbit"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_55",
+      "question": "architectural elements forming rib vaults eg wells cathedral?",
+      "student_answer": "The architectural elements forming rib vaults are <answer>ribs, webbing, keystone, tas-de-charge, and springers</answer>",
+      "extracted_answer": "ribs, webbing, keystone, tas-de-charge, and springers",
+      "ground_truths": [
+        "an armature of piped masonry",
+        "barrel vaults",
+        "two to three barrel vaults"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_56",
+      "question": "who sang the song good morning good morning?",
+      "student_answer": "The song \"Good Morning Good Morning\" was sung by <answer>The Beatles</answer>, with John Lennon on lead vocals.",
+      "extracted_answer": "The Beatles",
+      "ground_truths": [
+        "Gene Kelly",
+        "Donald O'Connor",
+        "Judy Garland",
+        "Debbie Reynolds",
+        "Mickey Rooney"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_57",
+      "question": "who wrote papa got a brand new bag?",
+      "student_answer": "The song \"Papa's Got a Brand New Bag\" was written by <answer>James Brown</answer>.",
+      "extracted_answer": "James Brown",
+      "ground_truths": [
+        "James Brown"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_58",
+      "question": "where does a roadrunner live in the desert?",
+      "student_answer": "Roadrunners live in semi-open, scrubby desert habitats including areas dominated by creosote bushes, mesquite, chaparral, and cacti. They nest 3-10 feet off the ground in sturdy bushes, cacti, or small trees, and prefer areas with scattered vegetation that provides cover while allowing them to run along paths and streambeds. <answer>in scrubby desert vegetation including creosote bushes, mesquite, chaparral, and cacti</answer>",
+      "extracted_answer": "in scrubby desert vegetation including creosote bushes, mesquite, chaparral, and cacti",
+      "ground_truths": [
+        "mountainous shrubland",
+        "arid lowland"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_59",
+      "question": "who wrote it's a long long way to pasadena?",
+      "student_answer": "The song \"Pasadena\" by John Paul Young, which contains the lyric \"It's a long, long way to Pasadena,\" was written by <answer>David Hemmings, Harry Vanda, and George Young</answer>.",
+      "extracted_answer": "David Hemmings, Harry Vanda, and George Young",
+      "ground_truths": [
+        "John Young",
+        "Harry Vanda",
+        "David Hemmings",
+        "George Young"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.4444444444444445
+    },
+    {
+      "id": "nq_validation_60",
+      "question": "what's the dog's name on tom and jerry?",
+      "student_answer": "The dog's name on Tom and Jerry is <answer>Spike</answer>.",
+      "extracted_answer": "Spike",
+      "ground_truths": [
+        "Spike"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_61",
+      "question": "who are nominated for president of india 2017?",
+      "student_answer": "The candidates nominated for President of India in 2017 were <answer>Ram Nath Kovind and Meira Kumar</answer>.",
+      "extracted_answer": "Ram Nath Kovind and Meira Kumar",
+      "ground_truths": [
+        "Meira Kumar",
+        "Ram Nath Kovind"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_62",
+      "question": "where does the path train stop in newark?",
+      "student_answer": "The PATH train stops at <answer>Newark Penn Station</answer> in Newark.",
+      "extracted_answer": "Newark Penn Station",
+      "ground_truths": [
+        "Newark Penn Station"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_63",
+      "question": "where does route 66 start on the west coast?",
+      "student_answer": "Route 66 starts on the West Coast in <answer>Santa Monica, California</answer>.",
+      "extracted_answer": "Santa Monica, California",
+      "ground_truths": [
+        "in Santa Monica"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_64",
+      "question": "who is the first wife on sister wives?",
+      "student_answer": "The first wife on Sister Wives is <answer>Meri Brown</answer>.",
+      "extracted_answer": "Meri Brown",
+      "ground_truths": [
+        "Meri"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_65",
+      "question": "when did houston go to the american league?",
+      "student_answer": "The Houston Astros moved to the American League in <answer>2013</answer>.",
+      "extracted_answer": "2013",
+      "ground_truths": [
+        "2013"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_66",
+      "question": "when did they stop cigarette advertising on television?",
+      "student_answer": "Cigarette advertising on television was banned effective <answer>January 2, 1971</answer>.",
+      "extracted_answer": "January 2, 1971",
+      "ground_truths": [
+        "January 2, 1971",
+        "1970"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_67",
+      "question": "coldplay song i will try to fix you?",
+      "student_answer": "The Coldplay song you're referring to is <answer>Fix You</answer>",
+      "extracted_answer": "Fix You",
+      "ground_truths": [
+        "\"Fix You\""
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_68",
+      "question": "points on a sphere or angles in a circle are measured in units called?",
+      "student_answer": "Points on a sphere or angles in a circle are measured in units called <answer>radians</answer>.",
+      "extracted_answer": "radians",
+      "ground_truths": [
+        "radians"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_69",
+      "question": "the oligodynamic effect is a phenomenon that describes?",
+      "student_answer": "The oligodynamic effect is a phenomenon that describes <answer>the biocidal effect of metals, especially heavy metals, that occurs even in low concentrations</answer>.",
+      "extracted_answer": "the biocidal effect of metals, especially heavy metals, that occurs even in low concentrations",
+      "ground_truths": [
+        "a biocidal effect of metals"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.47058823529411764
+    },
+    {
+      "id": "nq_validation_70",
+      "question": "where does the white witch live in narnia?",
+      "student_answer": "The White Witch lives in <answer>her castle in the northern part of Narnia</answer>.",
+      "extracted_answer": "her castle in the northern part of Narnia",
+      "ground_truths": [
+        "her castle"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.4444444444444445
+    },
+    {
+      "id": "nq_validation_71",
+      "question": "how many games in a row have the uconn women's basketball team won?",
+      "student_answer": "The UConn women's basketball team has won <answer>16</answer> games in a row.",
+      "extracted_answer": "16",
+      "ground_truths": [
+        "111 straight wins",
+        "111",
+        "90"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_72",
+      "question": "is there a name for the at symbol?",
+      "student_answer": "Yes, the at symbol (@) has several official names including <answer>at sign</answer>, at symbol, commercial at, and address sign.",
+      "extracted_answer": "at sign",
+      "ground_truths": [
+        "commercial at",
+        "at symbol",
+        "at sign"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_73",
+      "question": "who sings the theme song for the tv show cops?",
+      "student_answer": "The theme song for the TV show \"Cops\" is sung by <answer>Inner Circle</answer>.",
+      "extracted_answer": "Inner Circle",
+      "ground_truths": [
+        "Inner Circle",
+        "Jamaican reggae band Inner Circle"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_74",
+      "question": "when was corporal punishment banned in south africa?",
+      "student_answer": "Corporal punishment was banned in South Africa at different times for different settings: <answer>1996 in schools, 1997 in the judicial system, and 2019 in private homes</answer>",
+      "extracted_answer": "1996 in schools, 1997 in the judicial system, and 2019 in private homes",
+      "ground_truths": [
+        "1997"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.15384615384615385
+    },
+    {
+      "id": "nq_validation_75",
+      "question": "who plays captain phasma in star wars the force awakens?",
+      "student_answer": "Captain Phasma in Star Wars: The Force Awakens is played by <answer>Gwendoline Christie</answer>.",
+      "extracted_answer": "Gwendoline Christie",
+      "ground_truths": [
+        "Gwendoline Christie"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_76",
+      "question": "who sings she's like the wind lyrics?",
+      "student_answer": "\"She's Like the Wind\" is sung by <answer>Patrick Swayze</answer> with additional vocals from Wendy Fraser.",
+      "extracted_answer": "Patrick Swayze",
+      "ground_truths": [
+        "Wendy Fraser",
+        "Patrick Swayze"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_77",
+      "question": "when did marathon change its name to snickers?",
+      "student_answer": "Marathon changed its name to Snickers in <answer>1990</answer>.",
+      "extracted_answer": "1990",
+      "ground_truths": [
+        "19 July 1990"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_78",
+      "question": "who captained the first european ship to sail around the tip of africa?",
+      "student_answer": "The first European ship to sail around the tip of Africa was captained by <answer>Bartolomeu Dias</answer>.",
+      "extracted_answer": "Bartolomeu Dias",
+      "ground_truths": [
+        "Bartolomeu Dias"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_79",
+      "question": "who ordered the forbidden city to be built?",
+      "student_answer": "The Forbidden City was ordered to be built by <answer>Emperor Zhu Di of the Ming Dynasty, also known as the Yongle Emperor</answer>.",
+      "extracted_answer": "Emperor Zhu Di of the Ming Dynasty, also known as the Yongle Emperor",
+      "ground_truths": [
+        "Zhu Di"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.3076923076923077
+    },
+    {
+      "id": "nq_validation_80",
+      "question": "who sang let me tell you about the birds and the bees?",
+      "student_answer": "The song \"The Birds and the Bees\" with the lyrics \"Let me tell you about the birds and the bees\" was sung by <answer>Jewel Akens</answer>.",
+      "extracted_answer": "Jewel Akens",
+      "ground_truths": [
+        "Jewel Akens"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_81",
+      "question": "who has the power to approve or veto legislation constitution?",
+      "student_answer": "According to the U.S. Constitution, <answer>the President of the United States</answer> has the power to approve or veto legislation.",
+      "extracted_answer": "the President of the United States",
+      "ground_truths": [
+        "the President"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.4
+    },
+    {
+      "id": "nq_validation_82",
+      "question": "how many seasons of the rugrats are there?",
+      "student_answer": "There are <answer>9</answer> seasons of Rugrats.",
+      "extracted_answer": "9",
+      "ground_truths": [
+        "9 seasons",
+        "9"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_83",
+      "question": "who is the minister of local government in zimbabwe?",
+      "student_answer": "The Minister of Local Government in Zimbabwe is <answer>Daniel Garwe</answer>.",
+      "extracted_answer": "Daniel Garwe",
+      "ground_truths": [
+        "Hon July Moyo"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_84",
+      "question": "what was the initial effect of the transition from command to market economies in eastern europe?",
+      "student_answer": "The initial effect of the transition from command to market economies in Eastern Europe was <answer>sharp economic decline, rising unemployment, and soaring prices</answer>.",
+      "extracted_answer": "sharp economic decline, rising unemployment, and soaring prices",
+      "ground_truths": [
+        "Inequality of opportunity"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_85",
+      "question": "when did toyota start making cars in the us?",
+      "student_answer": "Toyota started making cars in the US in <answer>1988</answer> with the first vehicle rolling off the production line at their Georgetown, Kentucky plant on May 26, 1988.",
+      "extracted_answer": "1988",
+      "ground_truths": [
+        "by the early 1980s",
+        "1984"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_86",
+      "question": "how many pieces in a terry's chocolate orange?",
+      "student_answer": "A Terry's Chocolate Orange contains <answer>20</answer> pieces.",
+      "extracted_answer": "20",
+      "ground_truths": [
+        "six",
+        "20"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_87",
+      "question": "who plays the saint of killers on preacher?",
+      "student_answer": "The Saint of Killers on Preacher is played by <answer>Graham McTavish</answer>.",
+      "extracted_answer": "Graham McTavish",
+      "ground_truths": [
+        "Graham McTavish"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_88",
+      "question": "when did the royal proclamation of 1763 end?",
+      "student_answer": "The Royal Proclamation of 1763 ended with the <answer>Treaty of Paris in 1783</answer>, which concluded the American Revolutionary War.",
+      "extracted_answer": "Treaty of Paris in 1783",
+      "ground_truths": [
+        "the American Revolutionary War",
+        "with the American Revolutionary War",
+        "1783"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.33333333333333337
+    },
+    {
+      "id": "nq_validation_89",
+      "question": "who is playing the halftime show at super bowl 2016?",
+      "student_answer": "The halftime show at Super Bowl 2016 was performed by <answer>Coldplay, Beyoncé, and Bruno Mars</answer>.",
+      "extracted_answer": "Coldplay, Beyoncé, and Bruno Mars",
+      "ground_truths": [
+        "Beyoncé",
+        "Coldplay",
+        "Bruno Mars"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5714285714285715
+    },
+    {
+      "id": "nq_validation_90",
+      "question": "jonny cash one piece at a time car?",
+      "student_answer": "The car in Johnny Cash's \"One Piece at a Time\" was a <answer>Cadillac</answer> made from mismatched parts spanning model years 1949 to 1970.",
+      "extracted_answer": "Cadillac",
+      "ground_truths": [
+        "Cadillac"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_91",
+      "question": "what is the minimum wage in france per hour?",
+      "student_answer": "The minimum wage in France is <answer>€11.88 gross per hour</answer> as of November 1, 2024.",
+      "extracted_answer": "€11.88 gross per hour",
+      "ground_truths": [
+        "11.16",
+        "€9.88 per hour."
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5714285714285715
+    },
+    {
+      "id": "nq_validation_92",
+      "question": "describe the three phases of the normal blood clotting process?",
+      "student_answer": "The three phases of the normal blood clotting process (hemostasis) are:\n\n1. **Vascular Spasm (Vasoconstriction)**: This is the immediate response where the smooth muscle in blood vessel walls contracts to reduce blood flow to the injured area. It's triggered by chemicals released from damaged cells and pain receptors, typically lasting up to 30 minutes.\n\n2. **Formation of a Platelet Plug**: Platelets circulating in the blood become activated, clump together, and adhere to the damaged vessel lining. They release chemicals that attract more platelets and maintain vasoconstriction, forming a temporary seal at the injury site.\n\n3. **Coagulation (Blood Clotting)**: This involves a cascade of reactions through either the extrinsic pathway (triggered by tissue damage) or intrinsic pathway (triggered by factors within the bloodstream), both leading to the common pathway. This results in the conversion of fibrinogen to insoluble fibrin strands that form a stable clot, trapping platelets and blood cells to permanently seal the wound.\n\n<answer>The three phases are: vascular spasm, platelet plug formation, and coagulation.</answer>",
+      "extracted_answer": "The three phases are: vascular spasm, platelet plug formation, and coagulation.",
+      "ground_truths": [
+        "blood coagulation",
+        "vasoconstriction,"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.16666666666666669
+    },
+    {
+      "id": "nq_validation_93",
+      "question": "when did amnesia the dark descent come out?",
+      "student_answer": "Amnesia: The Dark Descent was first released on <answer>September 8, 2010</answer>.",
+      "extracted_answer": "September 8, 2010",
+      "ground_truths": [
+        "8 September 2010"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_94",
+      "question": "what is the oldest street in the philippines?",
+      "student_answer": "Based on historical research, while Colon Street has traditionally been considered the oldest street in the Philippines, recent evidence from historians shows that Magallanes Street in Cebu City is actually the oldest. The oldest known map of Cebu City from 1699 shows Magallanes Street as part of the original Spanish settlement layout around Plaza Sugbu, while there is no documentary evidence that Colon Street was built in 1565 as claimed. Therefore, the oldest street in the Philippines is <answer>Magallanes Street</answer>.",
+      "extracted_answer": "Magallanes Street",
+      "ground_truths": [
+        "Cebu City",
+        "Colon Street"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.5
+    },
+    {
+      "id": "nq_validation_95",
+      "question": "where is the tibia and fibula bone located?",
+      "student_answer": "The tibia and fibula bones are located in the <answer>lower leg</answer>.",
+      "extracted_answer": "lower leg",
+      "ground_truths": [
+        "leg"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.6666666666666666
+    },
+    {
+      "id": "nq_validation_96",
+      "question": "who played bat masterson in the tv series?",
+      "student_answer": "The role of Bat Masterson in the TV series was played by <answer>Gene Barry</answer>.",
+      "extracted_answer": "Gene Barry",
+      "ground_truths": [
+        "Gene Barry"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_97",
+      "question": "who sings sugar sugar you are my candy girl?",
+      "student_answer": "The song \"Sugar, Sugar\" with the lyrics \"you are my candy girl\" is sung by <answer>The Archies</answer>.",
+      "extracted_answer": "The Archies",
+      "ground_truths": [
+        "the Archies"
+      ],
+      "exact_match": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "id": "nq_validation_98",
+      "question": "types of skiing in the winter olympics 2018?",
+      "student_answer": "The types of skiing in the 2018 Winter Olympics were: <answer>Alpine skiing, Cross-country skiing, Biathlon, Ski jumping, Nordic combined, and Freestyle skiing</answer>",
+      "extracted_answer": "Alpine skiing, Cross-country skiing, Biathlon, Ski jumping, Nordic combined, and Freestyle skiing",
+      "ground_truths": [
+        "Slalom",
+        "Downhill",
+        "Super-G",
+        "Giant slalom",
+        "Slalom – (SC)"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    },
+    {
+      "id": "nq_validation_99",
+      "question": "who plays noah newman on the young and the restless?",
+      "student_answer": "The character Noah Newman on The Young and the Restless is currently played by <answer>Lucas Adams</answer>.",
+      "extracted_answer": "Lucas Adams",
+      "ground_truths": [
+        "Robert Gillespie Adamson IV"
+      ],
+      "exact_match": 0.0,
+      "f1_score": 0.0
+    }
+  ]
+}
