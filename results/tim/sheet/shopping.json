@@ -1,0 +1,1180 @@
+{
+    "id": "shopping",
+    "question": "I want to buy a new gaming laptop. Research the top 5 models released in 2025 (e.g., ASUS, MSI, Dell). Create a comparison sheet listing their specs (CPU, GPU, RAM, Screen), prices, and pros/cons. Highlight the best value option.",
+    "trajectory": {
+        "question": "I want to buy a new gaming laptop. Research the top 5 models released in 2025 (e.g., ASUS, MSI, Dell). Create a comparison sheet listing their specs (CPU, GPU, RAM, Screen), prices, and pros/cons. Highlight the best value option.",
+        "steps": [
+            {
+                "step_number": 1,
+                "reasoning": [
+                    "I'll help you research and compare the top 5 gaming laptops for 2025. Let me start by creating a plan and then gathering the latest information."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "pending"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "pending"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "pending"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "pending"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 2,
+                "reasoning": [
+                    ""
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "in_progress"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "pending"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "pending"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "pending"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 3,
+                "reasoning": [
+                    "Let me research the top gaming laptop models for 2025. I'll search for the latest releases from ASUS, MSI, Dell, and other major brands."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "2025 gaming laptop models ASUS ROG MSI Dell Alienware Razer specifications",
+                        "num_docs_requested": 10,
+                        "retrieved_documents": [
+                            {
+                                "title": "Best Gaming Laptops 2025: Tested and reviewed",
+                                "link": "https://www.tomshardware.com/laptops/gaming-laptops/best-gaming-laptops",
+                                "snippet": "The laptop, packed with an Intel Core Ultra 9 275HX and Nvidia GeForce RTX 5090 Laptop GPU in our review configuration, outperformed the field ..."
+                            },
+                            {
+                                "title": "The Best Gaming Laptops We've Tested for 2025",
+                                "link": "https://www.pcmag.com/picks/the-best-gaming-laptops",
+                                "snippet": "The Best Gaming Laptops for 2025 ; Alienware 16X Aurora. $1,499.99 at Dell ; Asus ROG Zephyrus G16 (2025, Intel). $2,799.00 at Amazon ; Razer Blade 14 (2025)."
+                            },
+                            {
+                                "title": "The Best and Worst 18\" Gaming Laptops - I Tested Them All!",
+                                "link": "https://www.youtube.com/watch?v=zydSB0LA5vg",
+                                "snippet": "Lenovo's Legion 9 performed the best followed by Alienware's Area 51 in second place then Razer's Blade 18 in third place."
+                            },
+                            {
+                                "title": "ROG, Legion, Omen, Razer, MSI or Alienware?",
+                                "link": "https://www.reddit.com/r/GamingLaptops/comments/1m7afj8/which_brand_is_truly_the_top_premium_gaming/",
+                                "snippet": "Lenovo Legion, Razer Blade and Asus rog series are generally top of the line almost always and other models have some top tier models."
+                            },
+                            {
+                                "title": "The best gaming laptops we've reviewed in 2025 so far",
+                                "link": "https://www.pcgamer.com/hardware/gaming-laptops/the-best-gaming-laptops-weve-reviewed-in-2025/",
+                                "snippet": "The best gaming laptops we've reviewed in 2025 so far ; Razer Blade 16 (2025). Simply the best1. Razer Blade 16 (2025) ; Asus TUF Gaming A14 ( ..."
+                            },
+                            {
+                                "title": "Best gaming ultrabook (thin-and-light gaming laptop) in 2025",
+                                "link": "https://www.ultrabookreview.com/2071-best-gaming-ultrabooks/",
+                                "snippet": "As far as specs go, these are available with mdi-level RTX 5000 and 4000 graphics and recent Intel/AMD hardware, with various power settings and ..."
+                            },
+                            {
+                                "title": "The best gaming laptop 2025 - the latest and greatest ...",
+                                "link": "https://www.gamesradar.com/best-gaming-laptops-compared/",
+                                "snippet": "The best gaming laptop I've tested so far is, overall, the HP Omen Max 16. This is a new pick, but the 16-inch RTX 5080 device wowed in testing."
+                            },
+                            {
+                                "title": "The Best Gaming Laptops for Any Quest - WIRED",
+                                "link": "https://www.wired.com/gallery/best-gaming-laptops/",
+                                "snippet": "ROG Strix G16 (2025) ; CPU: AMD Ryzen 9 9955HX3D ; GPU: Nvidia RTX 5070 Ti ; Memory: 32 GB ; Storage: 1 TB ; Display: 16-inch, 2560 x 1600 (IPS)."
+                            },
+                            {
+                                "title": "Gaming Laptop Awards 2025! : r/GamingLaptops",
+                                "link": "https://www.reddit.com/r/GamingLaptops/comments/1p76jt3/gaming_laptop_awards_2025/",
+                                "snippet": "Not surprised to see Lenovo winning the best budget gaming laptop, best midrange ($800-$1000) gaming laptop and the best high end gaming laptop."
+                            },
+                            {
+                                "title": "Razer Blade 14 (2025) Gaming Laptop: NVIDIA GeForce ...",
+                                "link": "https://www.amazon.com/Razer-Blade-Gaming-Laptop-Lightweight/dp/B0DYLB2QRF",
+                                "snippet": "Amazon.com: Razer Blade 14 (2025) Gaming Laptop: NVIDIA GeForce RTX 5070 - AMD Ryzen AI 9 365 CPU - 3K 120Hz OLED Display - 32GB LPDDR5X RAM - 1TB SSD ..."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 4,
+                "reasoning": [
+                    "Let me browse some of the top sources to get more detailed specifications for the latest 2025 gaming laptops."
+                ],
+                "actions": [
+                    {
+                        "action": "browse",
+                        "url": "https://www.pcmag.com/picks/the-best-gaming-laptops",
+                        "browsed_content": "# The Best Gaming Laptops We've Tested for 2025\n\n PCMag editors select and review products[independently](https://www.pcmag.com/about/pcmagcom-mission-statement). If you buy through affiliate links, we may earn commissions, which help support our[testing](https://www.pcmag.com/about/how-we-test-everything-we-review).\n\nPlaying your favorite PC games with maxed-out settings doesn't mean you need a big desktop rig. We've found the best gaming laptops for every type of gamer based on our in-depth, hands-on reviews.\n\n[ ![Matthew Buzzi](https://i.pcmag.com/imagery/authors/06LIajI1jO2w7JwqYcP8NzL.fit_lim.size_100x100.v1723739303.png) ](https://www.pcmag.com/authors/matthew-buzzi) \n\nMatthew Buzzi\n\nPrincipal Writer, Hardware\n\nExperience\n\nI\u2019ve been a consumer PC expert at PCMag for 10 years, and I love PC gaming. I've played games on my computer for as long as I can remember, which eventually (as it does for many) led me to build and upgrade my own desktops to this day. Through my years at PCMag, I've tested and reviewed many, many dozens of laptops and desktops, and I am always happy to recommend a PC for your needs and budget.\n\n[ Read Full Bio](https://www.pcmag.com/authors/matthew-buzzi) \n\nPrincipal Writer, Hardware\n\n OUR EXPERT\n\n With a decade of tech journalism experience\u2014and a lifetime of video games\u2014Matt is an expert on laptops, desktops, and all things PC gaming. \n\nLOOK INSIDE PC LABS [HOW WE TEST](https://www.pcmag.com/about/how-we-test-laptops) \n\n65 EXPERTS \n\n43 YEARS \n\n41,500+ REVIEWS \n\n## Table of Contents\n\nSome PC enthusiasts swear by their hulky desktops, but in reality, a gaming laptop can be a more practical choice. But how do you make sense of all the screen sizes (14 to 18 inches!) and component options (Core, Ryzen, Radeon, GeForce!) you face when shopping? Our experts can help. Gaming laptops are all about tested CPU and graphics performance, and our analysts are aces at benchmarking and evaluating these laptops to find the best values. (They also assess design, usability, connectivity, and display quality in every model.) Our favorites are organized into budget (under about $1,200), midrange (between $1,200 and $2,000), and high-end ($2,000 and up) categories. Our top basic gaming laptop for most shoppers is the MSI Katana 15 HX, but we've compiled a list of additional tested options, along with shopping advice and critical specs for pinpointing the best gaming laptop for you.\n\n##  Our Top Tested Picks\n\n### Best Cyber Monday Gaming Laptop Deals This Week\\*\n\n* [ Alienware 16 Aurora Intel 7 RTX 5060 512GB SSD 16G...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=04wfQKbrfJIZEtCGCtNczf9&url=https%3A%2F%2Fwww.dell.com%2Fen-us%2Fshop%2Fdell-laptops%2Falienware-16-aurora-gaming-laptop%2Fspd%2Falienware-aurora-ac16250-gaming-laptop%2Fuseac16250hbtshtgc&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=1&element%5Flabel=Alienware+16+Aurora+Intel+7+RTX+5060+512GB+SSD+16G...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=05maPxfBNBln0GdF0tYYn4H \"(Opens in a new tab)\") \u2014 **$999** ($1,349) Save $350.00\n* [ Lenovo Legion Pro 5i Intel Ultra 7 RTX 5070 1TB 16...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=00EsVzDYUgykPrtmlRJp2Xl&url=https%3A%2F%2Fwww.lenovo.com%2Fus%2Fen%2Fp%2Flaptops%2Flegion-laptops%2Flegion-pro-series%2Flegion-pro-5i-gen-10-16-inch-intel%2F83f3000aus&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=2&element%5Flabel=Lenovo+Legion+Pro+5i+Intel+Ultra+7+RTX+5070+1TB+16...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=0606c5gE4Tb1pax4XC0qNi9 \"(Opens in a new tab)\") \u2014 **$1,489** ($2,299) Save $810.00\n* [ Alienware 16X Aurora Intel Ultra 9 RTX 5070 2TB SS...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=04wfQKbrfJIZEtCGCtNczf9&url=https%3A%2F%2Fwww.dell.com%2Fen-us%2Fshop%2Fdell-laptops%2Falienware-16x-aurora-gaming-laptop%2Fspd%2Falienware-aurora-ac16251-gaming-laptop%2Fuseac16251hbtshqfr&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=3&element%5Flabel=Alienware+16X+Aurora+Intel+Ultra+9+RTX+5070+2TB+SS...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=02ud41GQyhOE16VaK9aUxPW \"(Opens in a new tab)\") \u2014 **$1,649** ($2,099) Save $450.00\n* [ HP Omen Ryzen 9 RTX 5060 512GB SSD 16GB RAM 16\" Laptop](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=053mLh2CqQ87B6COi2cD2og&url=https%3A%2F%2Fwww.hp.com%2Fus-en%2Fshop%2Fpdp%2Fomen-16-inch-gaming-laptop-pc-b8cj1av-1&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=4&element%5Flabel=HP+Omen+Ryzen+9+RTX+5060+512GB+SSD+16GB+RAM+16%26quot%3B+Laptop&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=029zIppeBklzpdk8WZpiBYX \"(Opens in a new tab)\") \u2014 **$949** ($1,799) Save $850.00\n* [ MSI Vector 16 HX AI Intel Ultra 9 RTX 5070 Ti 1TB...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=05kie42h3YvHwjr4G1w80Qq&url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0DTMX7RKM&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=5&element%5Flabel=MSI+Vector+16+HX+AI+Intel+Ultra+9+RTX+5070+Ti+1TB...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=03gR7yi4it0TJvMc4kyL1zQ \"(Opens in a new tab)\") \u2014 **$1,659** ($2,099) Save $440.00\n* [ Asus ROG Strix G16 Ryzen 9 RTX 5070 1TB SSD 32GB R...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=05kie42h3YvHwjr4G1w80Qq&url=https%3A%2F%2Fwww.amazon.com%2Fdp%2FB0F1BZKY4L&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=6&element%5Flabel=Asus+ROG+Strix+G16+Ryzen+9+RTX+5070+1TB+SSD+32GB+R...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=00mICEMPjoh9CbzjEJTDsd8 \"(Opens in a new tab)\") \u2014 **$1,699** ($2,099) Save $400.00\n* [ Alienware 16 Area-51 Intel Ultra 9 RTX 5080 2TB SS...](https://cc.pcmag.com/v1/otc/01r1WRIAJykbQgN4oGQ8FSi?merchant=04wfQKbrfJIZEtCGCtNczf9&url=https%3A%2F%2Fwww.dell.com%2Fen-us%2Fshop%2Fdell-laptops%2Falienware-16-area-51-gaming-laptop%2Fspd%2Falienware-area-51-aa16250-gaming-laptop%2Fuseaa16250hbtshmls&template=roundup-page&module=roundup-deals&element=roundup-deal-offer&item=roundup-deal-offer&position=7&element%5Flabel=Alienware+16+Area-51+Intel+Ultra+9+RTX+5080+2TB+SS...&u=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-gaming-laptops&object%5Ftype=roundup&object%5Fuuid=01hiB08j7yaJGJmPl2YhRRH&product%5Fuuid=05MiTsbTh2DX6Q9mZghAN1h \"(Opens in a new tab)\") \u2014 **$2,699** ($3,449) Save $750.00\n\\*Deals are selected by our commerce team \n\n Deeper Dive: Our Top Tested Picks\n\n##  EDITORS' NOTE\n\n_November 20, 2025: With this update, we added the Alienware 16X Aurora as our new Best Midrange Gaming Laptop, replacing the Acer Predator Triton Neo 16\\. Our remaining picks have been vetted for currency and availability. Since our last update, we have tested and evaluated three new [laptops](https://www.pcmag.com/reviews/categories/laptops)_ _for potential inclusion in this roundup and our other laptop roundups. We currently have more than a dozen laptops in PC Labs for evaluation, from makers including Acer, Asus, Lenovo, and Razer._\n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Capable everyday productivity performance\n* RTX 5050 stands up to demanding games with DLSS 4\n* Comfortable keyboard with RGB lighting\n* Varied connectivity\n* Just 512GB storage is tight for modern gaming\n* Dim display\n* Chunky for a 15-inch laptop\n\nSince _most_ customers are looking for the best value and are not hard-core frame rate hounds, the affordable MSI Katana 15 HX has the widest appeal for most gamers. The RTX 5050 GPU proved to be a steady 1080p performer, and that's before considering DLSS 4, which enables more demanding titles and higher frame rates if desired. A ho-hum display and a limited 512GB SSD are the main concessions to keep the price down.\n\n**Budget-conscious gamers:** The MSI Katana 15 HX is the top choice for gamers looking for an affordable laptop. It meets most mainstream needs without deal-breaking compromises, thanks to its RTX 5050 GPU and DLSS 4 technology. The Katana will get you playing the most popular games for less.\n\n**Gamers in college:** This Katana budget laptop is also a good fit for college students who like to game. Its processor is faster than you usually see in this tier, so it will power your schoolwork more than adequately when you're not gaming. When you are, it's capable of running new PC games smoothly with the help of DLSS.\n\nClass  Gaming \n\nProcessor  Intel Core i7-14650HX \n\nRAM (as Tested)  16 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  512 GB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  15.6 inches \n\nNative Display Resolution  1920 by 1080 \n\nTouch Screen \n\nPanel Technology  IPS \n\nVariable Refresh Support  None \n\nScreen Refresh Rate  144 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5050 Laptop GPU \n\nGraphics Memory  8 GB \n\nWireless Networking  Wi-Fi 6E, Bluetooth \n\nDimensions (HWD)  1 by 14.1 by 10.3 inches \n\nWeight  5.29 lbs \n\nOperating System  Windows 11 Home \n\nTested Battery Life (Hours:Minutes)  8:11 \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Affordable entry-level gaming\n* Decent screen\n* Impressive build quality\n* Comfortable keyboard\n* Excellent battery life\n* Quiet fans\n* Average gaming performance\n* Some configurations leave budget territory\n\nThe HP Victus 15 starts well below $1,000, making it a great budget gaming laptop off the bat. Additionally, HP offers a wide range of configuration options, making it quite flexible for various budgets and needs. Our test model was a bump up from the base model to an AMD Ryzen 7 8845HS processor, 16GB of memory, a 1TB SSD, and an RTX 4050 GPU for a reasonably capable entry-level gaming system. The MSI Katana's newer-generation RTX 5050 pushes more power, but the Victus 15's low starting price, high build quality, excellent battery life, and comfortable keyboard are enough to keep it in consideration if money's tight.\n\n**Money-strapped gamers:** The HP Victus 15 is the best budget-friendly gaming laptop for PC gamers. Its low starting price is important here\u2014less expensive than almost any other gaming laptop we've reviewed\u2014and you can configure it a bit if you have extra cash. \n\n**PC gamers who love options:** This HP laptop is a top pick if you're looking for customization on a budget. HP's website sells a variety of Victus 15 systems, including a few models tailored for configuration fiends. You can select from a variety of processors and other specifications to create a model that suits you directly.\n\nClass  Gaming \n\nProcessor  AMD Ryzen 7 8845HS \n\nRAM (as Tested)  16 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  1 TB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  15.6 inches \n\nNative Display Resolution  1920 by 1080 \n\nTouch Screen \n\nPanel Technology  IPS \n\nVariable Refresh Support  None \n\nScreen Refresh Rate  144 Hz \n\nGraphics Processor  Nvidia GeForce RTX 4050 Laptop GPU \n\nGraphics Memory  6 GB \n\nWireless Networking  Wi-Fi 6E, Bluetooth 5.3 \n\nDimensions (HWD)  0.93 by 14.1 by 10 inches \n\nWeight  5.06 lbs \n\nOperating System  Windows 11 Home \n\nTested Battery Life (Hours:Minutes)  12:13 \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Slim and sturdy design with aluminum lid\n* Fast Intel processor and capable RTX 5060 GPU\n* Bright and sharp 240Hz 1600p display\n* Wide port selection\n* A touch expensive for an RTX 5060\n* No OLED option\n* Single-zone RGB keyboard\n\nThis Alienware laptop is the king of the midrange due to a combination of build quality, feature set, and performance at a reasonable price. It starts at a decent price within the midrange band and can be configured upward for shoppers with larger budgets who like the build. Our test model features an Intel Core Ultra 7 255HX CPU and an Nvidia GeForce RTX 5060 GPU, midrange gaming essentials. The laptop comes with an aluminum lid, a bright and sharp 1600p screen, and useful ports. Additionally, Dell often runs deals on its web store, so look out for hundreds of dollars off this Alienware machine.\n\n**Gamers looking for an affordable upgrade:** This laptop is the best fit for gamers with a midrange budget who want more power without shelling out extra hundreds of dollars on a true enthusiast machine. A solid upgrade from an entry-level model, this Alienware machine's RTX 5060 GPU (with the help of DLSS 4) can power virtually any modern game in style.\n\n**Gamers replacing a desktop:** The 16X Aurora is a good option for gamers looking to replace their desktop with a laptop.The 240Hz 16-inch 1600p display provides a monitor-like experience, serving as a quality primary or secondary panel. Plus, the aluminum build makes using it that much more satisfying.\n\nClass  Gaming \n\nProcessor  Intel Core Ultra 7 255HX \n\nRAM (as Tested)  16 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  1 TB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  16 inches \n\nNative Display Resolution  2560 by 1600 \n\nTouch Screen \n\nPanel Technology  IPS \n\nVariable Refresh Support  G-Sync \n\nScreen Refresh Rate  240 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5060 Laptop GPU \n\nGraphics Memory  8 GB \n\nWireless Networking  Wi-Fi 7, Bluetooth \n\nDimensions (HWD)  0.92 by 14.05 by 10.45 inches \n\nWeight  2.57 lbs \n\nOperating System  Windows 11 Home \n\nTested Battery Life (Hours:Minutes)  5:39 \n\n (Credit: Joseph Maldonado) \n\n* Blazing performance and gameplay\n* Sharp, fast Mini LED 240Hz display\n* Longer battery life than expected\n* Effective cooling\n* Tool-free RAM, SSD upgrades\n* Competitively priced, but still expensive\n* Loud fans when cooling\n* Number pad overlay on the touchpad can be triggered by accident\n\nOur high-end pick is free from the budget restraints of other categories, and in this fiercely competitive tier, the Asus ROG Strix Scar 16 stands out. It manages to remain a decent value despite its price, and the performance, design, and feature set make it a winner for enthusiasts. The Intel Core Ultra 9 275HX and Nvidia GeForce RTX 5080 in our test model made light work of our benchmark tests, and it's up to the task for any real-world title. Additionally, it features a brilliant 240Hz 1600p mini LED display, long battery life, and tool-free RAM and storage upgradability.\n\n**Hard-core gamers with deep pockets:** This ROG Strix laptop works best for gamers willing to spend $3,000 or more. It's expensive but maximizes that value with top-end parts and materials. Any modern game will run smoothly on this machine, and it has a boatload of memory, storage, and processing power.\n\n**Creatives and power users:** This laptop is also well-suited for creatives and professionals with high demands. You'll find plenty of overlap between creators and gamers today. This laptop has as much muscle for crunching through media editing and data as it does for handling the latest games.\n\nClass  Gaming \n\nProcessor  Intel Core Ultra 9 275HX \n\nRAM (as Tested)  32 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  2 TB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  16 inches \n\nNative Display Resolution  2560 by 1600 \n\nTouch Screen \n\nPanel Technology  Mini LED \n\nVariable Refresh Support  G-Sync \n\nScreen Refresh Rate  240 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5080 Laptop GPU \n\nGraphics Memory  16 GB \n\nWireless Networking  Wi-Fi 7, Bluetooth 5.4 \n\nDimensions (HWD)  1.21 by 13.9 by 10.6 inches \n\nWeight  6.28 pounds \n\nOperating System  Windows 11 Pro \n\nTested Battery Life (Hours:Minutes)  8:23 \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Potent performance as configured\n* Vivid OLED display\n* Thin, lightweight design\n* Powerful, crisp audio\n* Plenty of extra ports\n* Steep starting price\n* Disappointing battery life\n\nThis version of the Zephyrus G16, based on Intel's \"Arrow Lake\" platform, distinguishes itself from the [Ryzen model](https://www.pcmag.com/reviews/asus-rog-zephyrus-g16-2025-amd-ryzen-ai-9) we also reviewed this year. With an even more powerful GPU (an RTX 5070 Ti, versus the other model's RTX 4070), this is a dream laptop for demanding creative professionals who also play PC games. The 16-inch 1600p OLED screen is beautiful, the design is sleek and lightweight, and it comes with a range of useful connectivity options. The processor in our review model is well-equipped to handle demanding media editing and content creation workloads, while the GPU is equally capable of powering high-end gaming sessions and 3D content tasks.\n\n**Content creators moonlighting as PC gamers:** This gaming laptop is an excellent fit for creative professionals who also enjoy PC gaming. Video editors and graphic designers will come for the color-rich OLED display and speedy processor, wrap up their workday, and stay for the gaming-ready GPU. The Zephyrus' CPU power, memory, and sharp display make it a smart, albeit steeply priced, gaming laptop choice for people who need more than just fast frame rates from their hardware.\n\nClass  Gaming \n\nProcessor  Intel Core Ultra 9 285H \n\nRAM (as Tested)  32 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  2 TB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  16 inches \n\nNative Display Resolution  2560 by 1600 \n\nTouch Screen \n\nPanel Technology  OLED \n\nVariable Refresh Support  None \n\nScreen Refresh Rate  240 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5070 Ti \n\nGraphics Memory  12 GB \n\nWireless Networking  Wi-Fi 7, Bluetooth 5.4 \n\nDimensions (HWD)  0.69 by 13.9 by 9.7 inches \n\nWeight  4.3 lbs \n\nOperating System  Windows 11 Pro \n\nTested Battery Life (Hours:Minutes)  4:51 \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Unparalleled build quality at its size\n* Powerful enough for modern 60fps-plus gaming\n* Sharp 120Hz 3K OLED screen\n* Long battery life\n* User-upgradable SSD\n* High cost of entry\n* Larger laptops at this price offer superior GPUs\n\nThe Blade 14 is our current favorite ultraportable gaming laptop, thanks to its exceptional combination of performance, style, and price. It costs a pretty penny\u2014cheap laptops at this size are uncommon, and Razer leans premium to begin with\u2014but it's worth it if you can afford it. The high-quality chassis and slick style are unmatched in the gaming space, and the 120Hz 3K OLED panel only sweetens the pot. Its battery life is long, you can upgrade the SSD after purchase, and, of course, the laptop's gaming performance meets expectations. Aside from the cost, it's difficult to find much fault with the system, resulting in a fast, chic, and portable gaming machine.\n\n**Gamers on the go:** This gaming laptop fits well with gaming enthusiasts who travel a lot. The Blade 14 is not exactly a value play, but it is a device you'll love if you frequently take your laptop with you. If you need a primary gaming PC that you can travel with over short or long distances, the Blade 14 is your best bet.\n\n**Frequent-traveling content creators:** This is a top portable option for editors and other media makers. These users often work on the road or frequently change location, making this mobile and premium laptop a great fit. Razer has long courted these users, and this edition seems to seal the deal.\n\nClass  Gaming, Ultraportable \n\nProcessor  AMD Ryzen AI 9 365 \n\nRAM (as Tested)  32 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  1 TB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  14 inches \n\nNative Display Resolution  2880 by 1800 \n\nTouch Screen \n\nPanel Technology  OLED \n\nVariable Refresh Support  G-Sync \n\nScreen Refresh Rate  120 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5070 Laptop GPU \n\nGraphics Memory  8 GB \n\nWireless Networking  Wi-Fi 7, Bluetooth 5.4 \n\nDimensions (HWD)  0.64 by 12.2 by 8.8 inches \n\nWeight  3.6 lbs \n\nOperating System  Windows 11 Home \n\nTested Battery Life (Hours:Minutes)  11:37 \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n (Credit: Joseph Maldonado) \n\n* Exceptional performance\n* Dazzling mini-LED screen\n* Potent audio\n* Decent battery life\n* Mostly plastic chassis\n* Loud fans\n* So-so keyboard\n\nWant the best big-screen experience that money can buy? Your best bet today is MSI's Raider 18 HX AI, which goes all in for processing and graphics muscle. Our test model packs an Intel Core Ultra 9 285HX CPU, 64GB of memory, and an Nvidia RTX 5080 GPU, which unsurprisingly made mincemeat of our benchmark tests, posting staggering 3D and gaming results. The downside? It's big, loud, and expensive, but that's more or less table stakes at this size and power tier. A sharp mini LED screen and acceptable battery life for the size round out the system.\n\n**Power seekers:** This laptop is designed for gamers with deep pockets who demand maximum performance. The Raider is one of the most potent gaming laptops available, especially if frame rates and performance in the latest titles are your primary concerns. Even without an RTX 5090, it's enough for virtually any current-day gaming scenario.\n\n**Gamers replacing a desktop:** This gaming laptop is a nearly perfect desktop replacement. Whether you are replacing an old tower or deciding between a new desktop or a laptop, the Raider will please. Its big display is like a desktop monitor, and its power level is about as potent as it gets in the mobile space.\n\nClass  Gaming, Desktop Replacement \n\nProcessor  Intel Core Ultra 9 285HX \n\nRAM (as Tested)  64 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  2 TB \n\nSecondary Drive Type  SSD \n\nSecondary Drive Capacity (as Tested)  2 TB \n\nScreen Size  18 inches \n\nNative Display Resolution  3840 by 2400 \n\nTouch Screen \n\nPanel Technology  IPS \n\nVariable Refresh Support  None \n\nScreen Refresh Rate  120 Hz \n\nGraphics Processor  Nvidia GeForce RTX 5080 Laptop GPU \n\nGraphics Memory  16 GB \n\nWireless Networking  Bluetooth 5.4, Wi-Fi 7 \n\nDimensions (HWD)  1.26 by 15.9 by 12.1 inches \n\nWeight  7.94 lbs \n\nOperating System  Windows 11 Home \n\nTested Battery Life (Hours:Minutes)  5:37 \n\n (Credit: Joseph Maldonado) \n\n* Boosted productivity and gaming performance\n* High-res IPS screen with 120Hz refresh rate\n* Four-zone RGB keyboard with anti-ghosting\n* Wi-Fi 6E and Ethernet\n* Below-average battery life\n* Non-touch display limits Android app use\n\nMany companies have tried to capitalize on the concept of cloud gaming. Now, the hardware and infrastructure are coming together in a handful of cloud-streaming Chromebook laptops with gamer-friendly details that set them apart from mainstream or ordinary Chromebooks. Part of a relatively new category of gaming laptop, the Acer Chromebook Plus 516 GE is Acer's second-gen effort at a gaming Chromebook, and it's our top pick. The performance is consistent across the board for gaming and general use; the build is top-quality for its price; the screen is sharp and peaks at a 120Hz refresh rate; and the keys even have RGB backlighting. Perhaps the gaming Chromebook trend won't last, but if this machine is any indication, there's a lot of promise here.\n\n**Gamers on very tight budgets:** This laptop is a good alternative for PC gamers who can't splash out on a pricier Windows machine. Instead of the usual cheap gaming laptop, particularly cash-strapped shoppers can opt for this Chromebook to save hundreds more. A fast and reliable internet connection is a must, however, because your games will all be cloud-streamed.\n\n**Connected, casual gamers:** Acer's Chromebook Plus 516 GE is best for casual PC gamers with a steady internet connection. Paired with quick and reliable internet service, this Chromebook can deliver top-end gaming experiences to casual gamers. This makes it ideal for a kid's first gaming laptop, too.\n\nClass  Chromebook, Gaming \n\nProcessor  Intel Core i5-120U \n\nRAM (as Tested)  8 GB \n\nBoot Drive Type  SSD \n\nBoot Drive Capacity (as Tested)  256 GB \n\nSecondary Drive Type \n\nSecondary Drive Capacity (as Tested) \n\nScreen Size  16 inches \n\nNative Display Resolution  2560 by 1600 \n\nTouch Screen \n\nPanel Technology  IPS \n\nVariable Refresh Support  Yes \n\nScreen Refresh Rate  120 Hz \n\nGraphics Processor  Intel Graphics \n\nGraphics Memory \n\nWireless Networking  Wi-Fi 6E, Bluetooth 5.2 \n\nDimensions (HWD)  0.84 by 14.0 by 9.8 inches \n\nWeight  3.75 lbs \n\nOperating System  Chrome OS \n\nTested Battery Life (Hours:Minutes)  9:16 \n\n![Newsletter Icon](https://www.pcmag.com/images/newsletter-envelope.svg)\n\n![Newsletter Icon](https://www.pcmag.com/images/newsletter-envelope.svg) \n\nGet Our Best Stories! \n\n###  All the Latest Tech, Tested by Our Experts\n\n![Lab Report Newsletter Image](https://i.pcmag.com/imagery/newsletters/17709142-contextual.fit_lpad.size_250x140.v1752614027.png) \n\nThanks for signing up!\n\nYour subscription has been confirmed. Keep an eye on your inbox!\n\n## The Best Gaming Laptops for 2025 Compare Specs \n\n Buying Guide: The Best Gaming Laptops for 2025\n\n## How to Choose a Gaming Laptop: Start With Your Budget\n\nNo surprise here: The ultimate factor in your gaming laptop purchase decision will be how much money you have to spend. Gaming systems have higher-end components than run-of-the-mill consumer laptops, so their prices will be higher, but the range across the category is huge, from under a grand to nearly $5,000\\. [Budget gaming laptops](https://www.pcmag.com/picks/the-best-cheap-gaming-laptops) start at around $800 and can go up to about $1,250\\. For that, you get a system that can play games at full HD resolution (1080p) with the settings turned down in demanding titles, or at maximum quality settings in simpler and/or older games. Storage will likely be a modest-capacity solid-state drive (SSD); a hard drive indicates an older model best avoided. An SSD as the boot drive is _always_ preferable. \n\nWant something better? Midrange systems give you smoother gameplay at high or maximum settings on a better-quality 1080p screen (which will support high refresh rates; more on that in a moment), and they should add support for [VR headsets](https://www.pcmag.com/picks/the-best-vr-headsets). These models will range in price from around $1,250 to $2,000.\n\n(Credit: Joseph Maldonado) \n\nHigh-end systems, meanwhile, should guarantee you smooth gameplay at 1080p and 1440p with graphics details maxed out, invariably on a high-refresh screen. They may even let you play at 4K resolution, if the screen and GPU supports it. A high-end model should also be able to power a [VR headset](https://www.pcmag.com/picks/the-best-vr-headsets) and support additional external monitors. These machines tend to come with capacious [PCI Express SSDs](https://www.pcmag.com/picks/the-best-pci-express-nvme-solid-state-drives-ssds), and they are priced above $2,000, often closer to $3,000.\n\nStill, you can easily spend more than $3,000 on a gaming laptop, with some models (particularly the 18-inchers, when fully kitted out) approaching $5,000\\. A big, beautiful screen often calls for a big price tag and is often paired with the highest-end components.\n\nSome laptops in this class support QHD (2,560-by-1,440-pixel) and QHD-equivalent (2,560-by-1,600-pixel in 16:10 aspect ratio) screens, 4K screens, and unseen extras like ultra-efficient cooling fans to power top-end parts. Thanks to modern advancements, an increasing number of systems are even relatively thin and portable. With laptops in this tier, you'll either pay a premium for high-end performance in a thin chassis or pay for the most possible power in a chunkier build.\n\n---\n\n## Which Component Matters Most for Gaming Laptops?\n\nWhile your budget will be the ultimate deciding factor, knowing which components to prioritize can be challenging. Unless you have no spending limit, you must choose where to compromise and where to double down between the graphics processing unit (GPU), central processing unit (CPU or processor), memory, storage, and display. We'll run through the different components below, in order of where to spend your cash.\n\n### 1\\. GPU\n\nIt's natural to ask, \"What is the best GPU for a gaming laptop?\" But that's not quite the right question for your shopping search. The \"best\" GPU overall will always be the fastest, most expensive AMD or Nvidia has to offer, so you should ask: \"What's the best GPU for my gaming goals?\" We only consider a laptop to be a gaming laptop if it has a discrete graphics chip from Nvidia or AMD (or, much less commonly, an Intel Arc GPU). \n\nA quick crash course for the uninitiated: The higher the suffix number in a GPU series, the more powerful it is. For example, an Nvidia GeForce RTX 4080 will generally produce faster frame rates and higher-quality graphics than an RTX 4070, and so on down the stack. The \"40\" denotes the generation, so the latest GeForce RTX 50 series is preferable to the older RTX 40 series since; for example, the GeForce RTX 5080 is the successor to the RTX 4080\\. Nvidia dominates the field right now, currently producing discrete [GeForce RTX 50-series](https://www.pcmag.com/news/nvidia-50-series-mobile-gpus-ai-rocket-fuel-gaming-laptops-ces-2025) mobile GPUs based on its latest \"Blackwell\" microarchitecture, though you'll still find RTX 40-series \"Ada Lovelace\" GPUs for the time being.\n\n(Credit: Joseph Maldonado) \n\nNvidia's GeForce RTX 40 and 50 series GPUs carry an RTX designation (rather than the GTX name of old), a nod to the ray-tracing lightning technology that provides enhanced visuals with compatible games. This fancy real-time lighting effect looks impressive, but it is very demanding to run. ([See our primer on PC ray-tracing](https://www.pcmag.com/how-to/what-is-ray-tracing-and-what-it-means-for-pc-gaming).)\n\nCombined with an AI-based rendering and upscaling technique called [DLSS](https://www.pcmag.com/news/testing-nvidias-dlss-20-higher-frame-rates-for-free), Nvidia GPUs can push ray-tracing at higher resolutions in the latest titles. Nvidia is continuously working on this technology, and the improvements in the latest edition, [DLSS 4](https://www.pcmag.com/news/i-tested-dlss-4-in-cyberpunk-2077-on-the-geforce-rtx-5090-and-heres-how), are a big part of the effectiveness of its 50-series GPUs. Depending on the laptop, demanding games may not hit 60 frames per second (fps) at 4K resolution, especially with ray-tracing active. \n\nBut it's much more feasible for a laptop to manage both a high frame rate and high resolution with a top-end GPU's DLSS 4 and \"frame generation\" feature, which stitches AI-generated frames between GPU-rendered frames to increase frame rates. From DLSS 4 onward, in particular, Nvidia's biggest GPU performance gains likely will be achieved via DLSS, rather than via pure horsepower. This technology can help powerful laptops squeeze out extra performance at the highest settings, and, conversely, let [budget laptops](https://www.pcmag.com/picks/the-best-budget-laptops) run cutting-edge games smoothly.\n\nLovelace and Blackwell laptop GPUs are not 1:1 performers in line with their desktop counterparts, but their performance is still respectable. We've found some sizable real-world performance variance between the same GPU in one laptop versus the same silicon in another, depending mostly on the power or wattage that laptop manufacturers allocate to the GPU. To see why this is, read our article comparing the [laptop versus desktop GeForce RTX 4090](https://www.pcmag.com/news/nvidia-geforce-rtx-4090-laptop-vs-desktop-compared-tested), and pay attention to the listed TGP on any given laptop GPU. This makes laptop shopping a bit more complicated than simply finding the GPU model in the spec sheet. Our hands on testing is more important than ever.\n\n(Credit: Joseph Maldonado) \n\nAs for the model hierarchy, high-priced notebooks with RTX 4080, RTX 4090, RTX 5080, and RTX 5090 GPUs are exceptional performers at all resolutions. As mentioned, DLSS is recommended for running ray tracing at higher resolutions and visual settings, but these top-end 40- and 50-series GPUs are much more capable than the lower-tier chips (with and without the help of DLSS). Our first opportunity to test the mobile RTX 50 series in any capacity was with an [RTX 5090 in a Razer Blade 16](https://www.pcmag.com/news/geforce-rtx-5090-for-laptops-tested-fastest-mobile-gpu), where it proved its power, while an [RTX 5080 laptop](https://www.pcmag.com/reviews/gigabyte-aorus-master-16) was our first full RTX 50-series review.\n\nMoving down the stack, Nvidia has RTX 5070 Ti, RTX 5070, RTX 5060, and RTX 5050 GPUs. The [MSI Katana 15 HX](https://www.pcmag.com/reviews/msi-katana-15-hx) was our first chance to see firsthand that even the entry-level RTX 5050 can get the job done at budget pricing, a big win for price-conscious shoppers. We haven't tested a high number of these recently released laptops yet, but we expect the RTX 5070 Ti to occupy the upper-midrange tier below the true premium systems, while the RTX 5070 will be a true midrange GPU.\n\nLike the RTX 4060, the RTX 5060 will live in less expensive machines that define the top end of \"entry-level.\" Think of the RTX 5060 as a reliable, steady pick for 1080p laptops. These are your bread-and-butter laptops just above bargain-priced systems, which is the territory of the RTX 4050 and RTX 5050\\. The xx60 tier is meant for your mainstream, everyday gaming experience and doesn't presume to power all of the visual details higher-end gaming rigs can. \n\n(Credit: Joseph Maldonado) \n\nNvidia is still the leading player in graphics, and while its rival, AMD, does sell alternatives, you won't find them nearly as often. AMD's current mobile generation is the [Radeon RX 7000M](https://www.pcmag.com/news/amd-unveils-radeon-rx-7000-series-mobile-gpus) line, but we've seen only a few of them since launch in gaming laptops. One interesting wrinkle you may have heard about: Intel and Nvidia are [joining forces](https://www.pcmag.com/news/shocker-intel-cpus-to-feature-built-in-nvidia-rtx-graphics) for new chips that, while not discrete GPUs, will be able to leverage system memory and Nvidia graphics chiplets for better-than-integrated graphics performance. These likely won't launch for some time, but they may be a factor in the lower end of the gaming market sometime in 2026 or 2027.\n\nEven with all the above complexity, we can still draw some basic conclusions about graphics performance. Today, a single midrange or high-end discrete GPU will let you play the latest AAA gaming titles on a 1080p screen with high-quality settings turned on and be fine for powering VR play. The RTX 3070 and 3080 made smooth 1440p gaming the norm, the RTX 40 series raised the baseline and made high-res gaming on laptops more plausible, and the RTX 50 series is doubling down on DLSS effectiveness.\n\n### 2\\. CPU\n\nAs you may have surmised from the GPU section, we have no one clear answer to someone asking, \"What CPU do I need for a gaming laptop?\" either, though there are clearer baselines. Intel's [13th Generation (\"Raptor Lake\") chips](https://pcmag.com/news/ces-2023-intel-raptor-lake-13th-gen-laptop-cpus) and AMD's [Ryzen 7000 processors](https://www.pcmag.com/news/phoenix-and-dragon-range-arrive-amd-outlines-ryzen-7000-mobile-cpus-some) dominated most of 2024, before Intel's [14th Gen \"Raptor Lake Refresh\" H](https://www.pcmag.com/news/ces-2024-intel-shows-off-more-refreshed-raptor-lake-chips-for-laptops) and AMD's Ryzen 8000 chips launched and took over in several of our top picks. Unlike in the GPU space, you will see more AMD processor options out there, as the company's current offerings stack up well against Intel's chips.\n\nIntel also launched its [Core Ultra \"Meteor Lake\"](https://www.pcmag.com/news/meteor-lake-architecture-detailed-what-to-know-about-intels-next-gen-cpus) and [\"Lunar Lake\"](https://www.pcmag.com/news/lunar-lake-first-tests-intels-ai-ready-core-ultra-2-chip-posts-nearly-24) chips with onboard AI processing, which will run [in a few gaming systems](https://www.pcmag.com/news/ces-2024-hands-on-asus-rog-zephyrus-g14-and-g16-gaming-laptops-slim-down), but won't be seen in most. You've likely seen the hype around Copilot+ PCs and Qualcomm's Snapdragon chips, but these AI processors are not relevant for gaming, at least for now.\n\nWhat you _are_ more likely to see are Intel's [\"Arrow Lake\" Core Ultra mobile](https://www.pcmag.com/news/ces-2025-intels-2025-arrow-lake-core-ultra-chips-for-laptops-prioritize) processors, which bridge the gap between AI performance and general power; see our [first tests of those chips here](https://www.pcmag.com/news/arrow-lake-h-tested-intels-core-ultra-9-mobile-chip-vies-for-first-place). 2025 was a silicon onslaught from AMD, too, which brought us [Ryzen 9000 HX \u201cFire Range,](https://www.pcmag.com/news/ces-2025-a-mountain-of-mobile-cpus-amd-2025-ryzen-9-x3d-ai-max-chips)\u201d[ Ryzen AI 300 \"Strix Point,\" and Ryzen 200 processors](https://www.pcmag.com/news/ces-2025-a-mountain-of-mobile-cpus-amd-2025-ryzen-9-x3d-ai-max-chips). The more AI-centric chips aren't primarily aimed at gaming laptops, but that's not to say you won't find them at all; a few of our picks (particularly high-end or cross-functional models) employ Ryzen AI and Core Ultra processors. The potent H and HX processors from AMD and Intel alike are the ones likely to appear in your favorite laptop lines as the year progresses, and our current list is a mix of these product lines.\n\n(Credit: Joseph Maldonado) \n\nMany entry-level and midrange gaming systems sport 7-class Intel processors, with the most expensive flaunting 9-class. The most affordable systems settle for 5-class chips. In general, more cores and higher clock speeds bring better overall efficiency and much-improved performance on multithreaded tasks like media projects, but are less vital for gaming. Gaming usually sees less of a boost from multiple threads than many media tasks do, but having a beefier CPU certainly doesn't hurt.\n\nIf you have to choose between a deluxe CPU and a high-end GPU, however, go for the graphics. For example, we'd recommend getting a Core 5-class processor over a 7 if the money saved could go, say, toward an Nvidia GeForce RTX 5060 GPU instead of an RTX 5050\\. Spending your money on the GPU makes more sense if gaming is your chief concern.\n\n(Credit: Joseph Maldonado) \n\nLook for Intel Core i5 processors in budget gaming systems, with Core i7 H or HX processors in midrange gaming laptops. The HX-series processors are higher-power and tend to show up in more expensive gaming laptops, such as the 14th Gen HX chips. Meanwhile, lower-power Core i7 U-series chips are designed for thinner, more portable, generally non-gaming machines. The most expensive, biggest gaming laptops for sale use Core i9 or Ultra 9 H-series processors, which are also superior for media tasks. Intel's newer Core Ultra Meteor, Lunar, and Arrow Lake processors drop the classic Intel \"i\" in the chip number but still have their own Ultra 5, 7, and 9 tiers, as well as designations like H series and V series. Of these, you'll mostly see H-class Arrow Lake chips (aka Core Ultra 200H series) in gaming laptops. A Core Ultra V- or U- series chip, in almost all cases, indicates a non-gaming-oriented machine. \n\nThen you have the AMD side, which we alluded to at the start of this discussion. As mentioned, AMD's chips long played second fiddle to Intel's offerings, but these days, Intel and AMD tug back and forth for performance supremacy, and you can largely follow the same 5-, 7-, and 9-tier logic when shopping AMD. AMD's Ryzen 7000 and 8000 chips go [toe-to-toe](https://www.pcmag.com/news/amd-ryzen-7000-mobile-tested-dragon-range-pushes-intel-for-cpu-speed-crown) with Intel's 13th and 14th Gen processors, making for fiercer competition. Any Ryzen 7000 or 8000, Ryzen AI 300 (with their own H and HX designations), or Intel 13th or 14th Gen Intel H-class chip should be a capable enough gamer under most circumstances.\n\n### 3\\. RAM\n\nHow much memory should you get? For gaming on Windows, demand at least 8GB of RAM. (In practice, no real gaming model will come with less.) That will give you some breathing room when switching back and forth between your gameplay window and your messaging app, but we'd save researching game tips for when you're not playing, as each successive browser tab you open eats into your RAM allotment.\n\nMemory capacities of 16GB are becoming increasingly standard for all but the least expensive laptops, particularly for gaming. With this, you can have your gaming session, a messaging app, several websites, a webcam, and streaming video active simultaneously. A budget gaming laptop should function okay with 8GB of RAM, but this amount is gradually being left behind, and you should be aware that some new laptops are not upgradable. You may be stuck with the amount of memory you order. For a midrange or enthusiast gaming laptop, 16GB is the minimum target; for most folks who aren't serious streamers or multitaskers, more than that is overkill. Higher-end gaming laptops will come with 32GB or more these days, which helps you multitask and run games at the highest settings.\n\n(Credit: Joseph Maldonado) \n\n### 4\\. Screen\n\nThis aspect has become increasingly complicated for gaming laptops, really boiling down to two questions: \"What is the best size for a laptop screen?\" and \"What is the best refresh rate?\"\n\nFirst, regarding display size, we're always talking about the diagonal distance from corner to corner. A 15.6-inch screen was the traditional sweet spot for a gaming laptop, but screens that measure 16 inches have gradually replaced them as the standard. You can buy models with larger displays, but this will almost certainly increase the weight to well beyond five pounds and put portability in question. \n\nLarger 18-inch laptops started to arrive in force in early 2023, and they've stuck around. These have all but replaced [17-inch laptops](https://www.pcmag.com/picks/the-best-17-inch-laptops) as the largest laptop screen you'll find, a monitor-like experience that can substitute for a desktop permanently or when you're away from home. \n\n(Credit: Joseph Maldonado) \n\nSmaller, super-portable gaming laptops, usually around 14 inches, are also mildly popular. These are for gamers who know they'll be on the go frequently, but make sure you're OK with this smaller size if it will be your primary gaming PC.\n\nIn terms of resolution, the default minimum has changed slightly as many laptop screens have shifted from a 16:9 aspect ratio to a 16:10 ratio\u2014screens that are just as wide, but a little taller. This changes the exact pixel count, but the resolutions are nearly functionally identical: You'll find either a \"full HD\" 1080p screen (1,920 by 1,080 pixels) in a 16:9 aspect ratio, or a full HD-equivalent 1200p (1,920 by 1,200 pixels) in a 16:10 aspect ratio.\n\nThose are generally the lowest resolutions you'll see, and for gaming laptops, this HD picture both looks sharp enough and is less taxing on your hardware. Higher resolutions have more pixels, making it more strenuous to run games, which in turn means you'll need more powerful laptop hardware. For this reason, many budget and mainstream laptops stick to 1080p (or 1200p) to ensure higher frame rates. \n\nMore expensive laptops can give you those higher-than-full-HD resolutions, but choose wisely, as a resolution of 1440p/1600p (QHD) or 4K (UHD) can boost the real-world cost twice: first for the more advanced panel and second, for that higher-quality graphics chip you'll need to drive it to its full potential. As mentioned, look for a high-refresh-rate screen (as discussed earlier) if you want smoother visuals; they are now standard in gaming laptops.\n\nBecause they require the most potent GPUs for smooth gameplay at native resolution, gaming laptops with 4K screens (3,840 by 2,160 pixels in 16:9) are still an exception, and still expensive. Only the most powerful and pricey GPUs can render complex game animations at playable frame rates at 4K, so a 1080p or 1440p screen may be a better use of your money if all you do is play games. \n\nEven though the RTX 4080, 4090, 5080, and 5090 can handle 4K gaming much more ably than any laptop GPUs before them, we still don't generally think it's worth the cost to seek out 4K gaming in laptops unless you can spend big. Nvidia's DLSS and AMD's FSR can greatly improve frame rates at high resolutions, making 4K play more attainable than ever, but these resolutions are still generally recommended with more powerful desktop GPUs. The screens do look excellent, though, especially since they're sometimes paired with [OLED technology](https://www.pcmag.com/picks/the-best-oled-laptops). QHD is often a better resolution pairing for modern high-end GPUs on laptops.\n\n(Credit: Joseph Maldonado) \n\nNow, to address the refresh rate question. Refresh rate is the number of times a screen refreshes itself per second and, thus, how \"fast\" it can display images. This will always be a relatively large number measured in hertz (Hz). Refresh rate functions alongside a video game's frame rate, measured in frames per second or fps; the Hz limit of your screen is the cap for how many frames per second can be rendered on the display. These together determine how smooth a game looks in practice: The computer's CPU and GPU can power a game at a specific frame rate, and your screen needs the Hz to display the images equally often.\n\nAs with GPUs, you should consider what your target refresh rate is for your gaming goals. In the past, the power of a GPU like the RTX 5070 would look like overkill for gaming at \"just\" 1080p, but several new factors can absorb that extra potential. A [high-refresh-rate screen](https://www.pcmag.com/how-to/does-your-gaming-laptop-need-a-high-refresh-rate-screen) is now the norm in any new gaming laptop, allowing for a full display of lofty frame rates to smooth out the perceived gameplay. You'll need a powerful graphics chip to leverage the benefits of a high-refresh panel with demanding games. You can identify machines like these by marketing lingo about, say, a 144Hz, 240Hz, or even 300Hz-plus screen. (A typical display on a laptop is a 60Hz panel, but new gaming models all have 144Hz-plus screens now.) \n\nA 144Hz panel is emerging as the most common, but we're also seeing some 240Hz and even 360Hz options in pricey models, all capable of displaying more than 60 frames per second (for example, up to 144fps in the case of 144Hz screens). This makes gameplay look smoother, but in many cases, only high-end GPUs can push those limits. Additionally, the aforementioned ray-tracing techniques (real-time lighting and reflection effects) are demanding to run, and as more video games implement the technology, the more you will want to flip them on.\n\n(Credit: Joseph Maldonado) \n\nBecause of that, you have multiple reasons to opt for a high-end GPU, even if playing games at full HD (1080p) resolution doesn't look too demanding to you on paper. On the lower end, DLSS can also help less powerful hardware like the RTX 3050 or 4050 run or enable ray-tracing with limited downsides, so you're not totally out of luck if you can't afford the top-end chips. DLSS support is far from universal, but it's appearing in more and more titles.\n\nNvidia's G-Sync and AMD's FreeSync technologies are more down-to-earth. They help increase the quality of the gaming experience and smooth out frame rates by letting the laptop screen rewrite the image on-screen at a variable rate that depends on the output of the GPU (rather than the fixed rate of the screen). Look for support for one of those technologies if you're a stickler for perfectly rendered visuals. These technologies, collectively known as \"adaptive sync,\" tend to show up in pricier machines, with G-Sync being much more common in laptops.\n\n### 5\\. Storage\n\nHow much storage space should you get in a gaming laptop SSD? These days, virtually every laptop comes with an SSD as the boot drive, and most have eliminated spinning [hard drives](https://www.pcmag.com/picks/the-best-external-hard-drives) entirely. SSDs speed up boot time, wake-from-sleep time, and the time it takes to launch a game and load a new level. Only older laptops will still have a hard drive as the boot drive.\n\nIn large gaming laptops, it was previously common to see a small-capacity (256GB) SSD boot drive paired with a roomy (1TB or greater) secondary drive to store the bulk of your library. You may still find this kind of combination (it's rare now), but as higher-capacity SSDs have become more affordable, a single large SSD has become the norm. A 512GB SSD is the new default, even for new budget gaming laptops, with 1TB the mainstream amount. High-end systems will include a 2TB or larger SSD. New machines almost all implement their boot SSDs via the M.2 gumstick format.\n\n(Credit: Joseph Maldonado) \n\nAdding greater SSD capacity will undoubtedly increase the price, but it may be necessary, given how large modern game installations can be, so shop accordingly. We recommend at least a 512GB SSD if you can afford it; even then, your library will fill up your drive fast. If you see 256GB offered, that suggests an older model; bump up the capacity if you can, unless you know you only want to play smaller indie titles, perhaps. A too-small SSD can mean you're forever shuffling games on and off the drive. One workaround: Some larger gaming laptops include an extra M.2 SSD slot or two, in addition to the slot holding the boot drive; it may be possible to add an aftermarket M.2 drive and designate it as your secondary \"game\" drive if space runs low. \n\n### 6\\. Battery\n\nGiven that high-end components tend to drain battery life, don't plan on taking any of these gaming rigs too far from a wall socket very often. Gaming laptops have improved on average regarding battery life, but it's generally not a long-lasting category. While many will now get you five, six, or seven hours, we still see more powerful laptops last only two to three hours in our rundown test. It's also something you can't especially tell when shopping for a laptop without looking at our reviews.\n\nThis is, of course, before even playing games on battery. Doing so will drastically run down the charge on your laptop, meaning you'll be looking to plug in soon if you're playing on battery power. Between the fact that you're going to buy this laptop to play games mostly _and_ a battery run time that's short, even when you're not gaming, battery power just is not one of the priorities when buying a gaming laptop. Longer is still better than shorter, and we include at least one gaming pick among our list of overall [laptops with the best battery life](https://www.pcmag.com/picks/the-best-battery-life-laptops), but it's not a strength of gaming machines.\n\n---\n\n## Buying the Best Cheap Gaming Laptop\n\nIf you're shopping for a gaming system on a limited budget (in this case, between roughly $800 and $1,300), you must make some sacrifices. Maximizing power while staying within a limited price range is the goal, but you'll have to accept that some components won't be comparable with the more expensive laptops you'll see while browsing. That said, $1,200 is a reasonable ceiling for what some buyers are ready to spend on a gaming laptop, and you can still get an effective system for that much. (Check out our side roundup of [the best cheap gaming laptops](https://www.pcmag.com/picks/the-best-cheap-gaming-laptops).)\n\nThe main drop-off will be in the graphics since the dedicated graphics chip is one of the most expensive components in a machine and the primary factor in a laptop's gaming prowess. The graphics chip almost single-handedly defines the class of laptop you're dealing with, so pay attention to that part. Fortunately, even the less powerful GPU options these days are pretty capable.\n\n(Credit: Joseph Maldonado) \n\nPast budget systems were equipped almost exclusively with those wallet-friendly Nvidia GeForce GTX GPUs we mentioned earlier. The RTX 4050 has been the go-to budget GPU of the past few years, with the rare RTX 4060 system sometimes found at budget pricing.\n\nThe RTX 4050 was the budget baseline for some time, but the mobile RTX 5060 and RTX 5050 are now on the market. You'll be able to play smoothly at 1080p with an RTX 4050, just not at high settings in newer games; the RTX 5050 raises the bar, and makes even demanding titles playable with DLSS 4\\. All should be able to provide at least a decent level of VR play if that's your thing. An RTX 4060 is much more capable than an RTX 4050, so especially as the 50 series successors take over, look out for sales on older systems.\n\nProcessors are the next most significant difference. In a budget model, you'll likely get a capable Core 5 instead of a faster Core 7\\. Still, some of the benefits of a Core 7 machine aren't a major factor for gaming, but instead benefit [video editing](https://www.pcmag.com/picks/the-best-video-editing-software) and other creative uses. So a Core 5 will usually do the job for basic budget gaming. Over the past few years, we saw more AMD Ryzen CPUs in cheap, general-use laptops than in affordable gaming laptops, despite their adoption in some higher-end or ultraportable gaming systems. AMD GPUs are much less common in budget gaming laptops than Nvidia ones. You'll probably be sussing out Intel CPUs and Nvidia GPUs in the budget zone. \n\nOutside of the graphics card and processor, the other components should be closer to more expensive machines than you'd expect. SSD boot drives are the norm even in the cheapest new gaming laptops, though they may be small in capacity. The display will almost certainly be 1080p; grainy 1,366-by-768-pixel panels are now reserved only for the very cheapest non-gaming systems, and sharp 1440p isn't a budget resolution. The RAM will likely top off at 8GB in the cheapest gaming laptops, but you will find some (more ideal) 16GB laptops in this range.\n\n---\n\n## What Else Do You Need to Up Your Game?\n\nCutting-edge ports like [USB Type-C](https://www.pcmag.com/how-to/what-is-usb-c-an-explainer) and [Thunderbolt 4](https://www.pcmag.com/how-to/what-is-thunderbolt-4-why-this-new-interface-will-matter-in-pcs-in-2021) are beneficial now and will only be more so down the road, but look for at least two ordinary-shaped (aka, \"Type-A\") USB 3.0 ports so you can plug in an external mouse and a hard drive for your saved media files. There's also a load of extras like RGB key and chassis lighting, software performance modes, and Ethernet ports for wired downloads or online gaming.\n\nIf you want to attach a wired VR headset to your rig, look for the right loadout of ports to accommodate it. You'll need a well-placed HDMI or DisplayPort video out (it depends on the headset, which one you'll need) and enough USB ports for a possible hydra-head of cabling. Other video ports, like DisplayPort or mini-DisplayPort (sometimes implemented over a USB-C port), will be helpful if you want to play games on an external display, but they aren't necessary if your laptop's screen is large enough.\n\n---\n\n## Which Brand Is Best to Buy a Gaming Laptop From?\n\nOur picks run the gamut of many different brands, though we do often see the same names rate highly in our lists. Some of these are gaming specialists, and others are not. At any given time, you should expect to see some systems from the biggest manufacturers, which always sell multiple models and configurations at various price points. These primarily include Acer, Asus, Dell, and Lenovo. The last, in particular, has been serving up impressive value in the gaming category recently.\n\nSome of the more specialist brands that consistently produce great gaming rigs are Alienware (a Dell subsidiary), Gigabyte, MSI, and Razer. Some of these, particularly Razer machines, come with hefty price premiums but emphasize superior build quality.\n\n---\n\n## Ready to Buy the Right Gaming Laptop for You?\n\nFeeling more prepared now to buy than before? We hope so. Our detailed spec breakout of all the top-pick machines we have laid out should help you settle on the best gaming laptop that fits your budget and your gaming aspirations. Game on!\n\n## About Our Expert\n\n![Matthew Buzzi](https://i.pcmag.com/imagery/authors/06LIajI1jO2w7JwqYcP8NzL.fit_lim.size_100x100.v1723739303.png)\n\nMatthew Buzzi\n\nPrincipal Writer, Hardware\n\n---\n\nExperience\n\nI\u2019ve been a consumer PC expert at PCMag for 10 years, and I love PC gaming. I've played games on my computer for as long as I can remember, which eventually (as it does for many) led me to build and upgrade my own desktops to this day. Through my years at PCMag, I've tested and reviewed many, many dozens of laptops and desktops, and I am always happy to recommend a PC for your needs and budget.\n\n[ Read Full Bio](https://www.pcmag.com/authors/matthew-buzzi) \n\n##  The Best Black Friday Weekend Deals From Our Experts\n\n---\n\n* [ Get A New VPN At Black Friday Weekend Prices: Up To 83% Off Subscriptions](https://www.pcmag.com/news/best-vpn-deals-black-friday-2025-nord-proton-ip-vanish-express)\n* [ 5 Must-Have Black Friday Tech Deals According to PCMag Readers: AirPods, Fire Sticks, MetaQuest, and More](https://www.pcmag.com/news/must-have-black-friday-tech-deals-pcmag-readers-airpods-fire-stick-metaquest)\n* [ Samsung's Black Friday Weekend Deals Are Still Cutting Prices on Tablets, Monitors, Phones, and More](https://www.pcmag.com/news/best-samsung-deals-black-friday-weekend-2025-monitors-phones-watches)\n* [ Attention Gamers! There's Still Time to Score a Black Friday Weekend PC Deal](https://www.pcmag.com/news/best-gaming-laptop-desktop-deals-black-friday-2025-asus-hp-lenovo-msi)\n* [ 200+ Best Black Friday Tech Deals You Can Still Grab: Laptops, TVs, Headphones, and Much More](https://www.pcmag.com/news/best-tech-electronics-deals-black-friday-weekend-amazon-walmart-best-buy)\n* [ Black Friday Weekend Is Halfway Over! Acre a Laptop Deal and Save Hundreds While You Still Can](https://www.pcmag.com/news/laptop-deals-black-friday-2025-apple-dell-lenovo-microsoft-chromebooks)\n* [ Keep the Music Going This Black Friday Weekend With 39% Off Beats Headphones](https://www.pcmag.com/deals/keep-the-music-going-this-black-friday-weekend-with-39-off-beats-headphones)\n* [ Sounds Like Black Friday Weekend Savings on Headphones. Get Up to 50% Off Apple, Beats, Sony, More](https://www.pcmag.com/news/best-black-friday-headphone-earbud-deals-apple-beats-bose-sony-more)\n* [ This Black Friday Weekend Is the Time to Save on Smartwatches and Fitness Trackers From Apple, Samsung, Garmin, and FitBit](https://www.pcmag.com/news/smartwatch-fitness-tracker-deals-black-friday-2025-apple-garmin-fitbit)\n* [ Still Going: Save Hundreds on Top-Rated Google, Moto, Samsung Galaxy Models This Black Friday Weekend](https://www.pcmag.com/news/best-smartphone-deals-black-friday-2025-samsung-google-motorola)\n\n###  Further Reading"
+                    }
+                ]
+            },
+            {
+                "step_number": 5,
+                "reasoning": [
+                    "Let me continue researching by gathering more detailed specifications for specific 2025 gaming laptop models."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "Asus ROG Strix G16 2025 specifications Intel Core Ultra 9 RTX 5070 price",
+                        "num_docs_requested": 5,
+                        "retrieved_documents": [
+                            {
+                                "title": "ASUS ROG Strix G16 (2025) Gaming Laptop, 16\u201d ...",
+                                "link": "https://www.amazon.com/ASUS-Strix-Gaming-Laptop-Nebula/dp/B0F7MWTYJY",
+                                "snippet": "ASUS ROG Strix G16 (2025) Gaming Laptop, 16\u201d ROG Nebula 16:10 2.5K 240Hz/3ms, NVIDIA\u00ae GeForce RTX\u2122 5070 Ti, AMD Ryzen\u2122 9 9955HX Processor, 32GB DDR5-5600, 1TB ..."
+                            },
+                            {
+                                "title": "ROG Strix G16 (2025) G615 | Powerful Gaming Laptop",
+                                "link": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2025/",
+                                "snippet": "Discover the 2025 ASUS ROG Strix G16: a 16\" gaming laptop powered by up to an Intel\u00ae Core\u2122 Ultra 9 processor with up to NVIDIA\u00ae GeForce RTX\u2122 5080 GPU."
+                            },
+                            {
+                                "title": "ASUS ROG Strix G16 (2025) 16\" Nebula 2.5K 240Hz ...",
+                                "link": "https://www.bestbuy.com/product/asus-rog-strix-g16-2025-16-nebula-2-5k-240hz-gaming-laptop-intel-core-ultra-9-275hx-32gb-ddr5-geforce-rtx-5070-2tb-ssd-eclipse-gray/JJGGLHXJH4",
+                                "snippet": "Powered by an Intel Core Ultra 9 275HX processor and NVIDIA GeForce RTX 5070 laptop GPU, enjoy seamless gaming and creative performance."
+                            },
+                            {
+                                "title": "ASUS ROG Strix G16 (2025) NVIDIA RTX 5070 Intel Core ...",
+                                "link": "https://www.walmart.com/ip/Asus-ROG-Strix-G16-16-Gaming-Laptop-Intel-Core-Ultra-9-275HX-NVIDIA-GeForce-RTX-5070-8-GB-2TB-SSD-Windows-11-Pro-G615LP-XS97/15724405142",
+                                "snippet": "ASUS ROG Strix G16 (2025) NVIDIA RTX 5070 Intel Core Ultra 9 275HX 16\u201d Nebula Display 2.5K 240Hz Gaming Laptop, 32GB RAM 2TB SSD, Windows 11 Pro, Eclipse Gray."
+                            },
+                            {
+                                "title": "ROG Strix G16 (2025) G614 | Gaming Laptop - ASUS",
+                                "link": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2025-g614/",
+                                "snippet": "The 2025 ASUS ROG Strix G16 arrives with Ryzen 9 9955HX3D + RTX 5070 Ti ... Intel\u00ae Core\u2122 Ultra 9 Processor 285H; Up to 16-inch, 2.5K (2560 x 1600, WQXGA) ..."
+                            },
+                            {
+                                "title": "ASUS ROG Strix G16 - 16\" GeForce RTX 5070 Laptop GPU",
+                                "link": "https://www.newegg.com/asus-rog-strix-g16-16-geforce-rtx-5070-laptop-gpu-intel-core-ultra-9-275hx-wqxga-32gb-memory-1tb-pcie-4-0-nvme-m-2-ssd/p/N82E16834236594?srsltid=AfmBOopHi23znBFLJyo8GSvriE5TMaQoKkC1YUynVbqf3SAbZ3eJWmW4",
+                                "snippet": "ASUS ROG Strix G16 - 16\" GeForce RTX 5070 Laptop GPU - Intel Core Ultra 9 275HX - 32GB Memory - 2TB PCIe 4.0 NVMe M.2 SSD - Wi-Fi 7 Windows 11 Pro Gaming ..."
+                            },
+                            {
+                                "title": "ASUS ROG Strix G16 G615LR-MS97 16\" Gaming Laptop ...",
+                                "link": "https://www.microcenter.com/product/693716/asus-rog-strix-g16-g615lr-ms97-16-gaming-laptop-computer-platinum-collection-eclipse-gray",
+                                "snippet": "Key Features. Intel Core Ultra 9 275HX (2.1GHz) Processor; 32GB DDR5-5600 RAM; NVIDIA GeForce RTX 5070 Ti Graphics Card; 2TB PCIe Gen4 NVMe M.2 SSD ..."
+                            },
+                            {
+                                "title": "ASUS ROG Strix G16 (2025) Gaming Laptop, NVIDIA ...",
+                                "link": "https://www.amazon.com/ASUS-Gaming-Laptop-GeForce-Display/dp/B0FG7N1RD3",
+                                "snippet": "ASUS ROG Strix G16 (2025) Gaming Laptop, NVIDIA GeForce RTX 5070 Ti GPU, Intel Ultra 9 275HX CPU, 16\u201d ROG Nebula Display 16:10 2.5K 240Hz/3ms, 64GB DDR5, 4TB ..."
+                            },
+                            {
+                                "title": "ROG Strix G16 (2025) G615 | ROG Strix | Gaming Laptops",
+                                "link": "https://rog.asus.com/laptops/rog-strix/rog-strix-g16-2025/",
+                                "snippet": "Dominate Windows 11 Pro gaming with up to Intel Core Ultra 9 processor 275HX and up to NVIDIA GeForce RTX 5080 Laptop GPU with a 175W max TGP."
+                            },
+                            {
+                                "title": "ASUS ROG STRIX G16 IntelUltra9 (2025) NVIDIA RTX ...",
+                                "link": "https://www.ebay.com/itm/177400675960",
+                                "snippet": "ASUS ROG Strix G16 (2025) Gaming Laptop, 16\u201d ROG Nebula Display 16:10 2.5K 240Hz/3ms, NVIDIA\u00ae GeForce RTX\u2122 5070 Ti GPU, Intel\u00ae Core\u2122 Ultra 9 275HX Processor ..."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 6,
+                "reasoning": [
+                    "Let me continue researching more gaming laptop models to complete the research phase."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "MSI Vector 16 HX AI 2025 Intel Ultra 9 RTX 5070 Ti specifications price",
+                        "num_docs_requested": 5,
+                        "retrieved_documents": [
+                            {
+                                "title": "MSI Vector 16 HX AI 16\u201d 240Hz QHD+ Gaming Laptop ...",
+                                "link": "https://www.amazon.com/MSI-Vector-240Hz-Gaming-Laptop/dp/B0DTMX7RKM",
+                                "snippet": "16\u201d 240Hz QHD+ Gaming Laptop: Intel Core Ultra 9-275HX, NVIDIA Geforce RTX 5070Ti, 16GB DDR5, 1TB NVMe SSD, Thunderbolt 5, Wi-Fi 7, Win 11 HomeSee more"
+                            },
+                            {
+                                "title": "MSI Vector 16 HX AI A2XWHG-211US 16\" 240Hz QHD+ ...",
+                                "link": "https://www.excaliberpc.com/817105/msi-vector-16-hx-ai.html?srsltid=AfmBOor-BShVuSGMl2Ul4LznXFvffdwlT58iWko7SraKlNX59TRjsHQi",
+                                "snippet": "MSI Vector 16 HX AI A2XWHG-211US 16\" 240Hz QHD+ Gaming Laptop w / NVIDIA GeForce RTX 5070 Ti (Core Ultra 9 275HX) \u00b7 $1,799.00 \u00b7 $18.76 \u00b7 Affirm ...See more"
+                            },
+                            {
+                                "title": "Vector 16 HX AI A2XWHG-060US 16\" QHD Gaming Laptop",
+                                "link": "https://us-store.msi.com/msi-Vector-16-HX-AI-A2XWHG-060US?srsltid=AfmBOoptTK-KzRTjy921XJ18MC1MLD2AVbXtrqR0Oq81mLFq-WKQY9KW",
+                                "snippet": "Vector 16 HX AI A2XWHG-060US 16\" QHD Gaming Laptop \u00b7 Windows 11 Pro \u00b7 Intel\u00ae Core\u2122 Ultra 9-275HX 2.1-5.4 GHz \u00b7 NVIDIA\u00ae GeForce RTX\u2122 5070 Ti Laptop GPU 12GB GDDR7 ...See more"
+                            },
+                            {
+                                "title": "MSI - Vector 16 HX AI 16\" 144Hz FHD+ Gaming Laptop",
+                                "link": "https://www.bestbuy.com/product/msi-vector-16-hx-ai-16-144hz-fhd-gaming-laptop-intel-ultra-7-255hx-geforce-rtx-5070ti-16gb-memory-1tbssd-cosmo-gray/J3P7TXRLGZ",
+                                "snippet": "MSI - Vector 16 HX AI 16\" 144Hz FHD+ Gaming Laptop - Intel Ultra 7-255HX - GeForce RTX 5070Ti - 16GB Memory - 1TBSSD - Cosmo Gray. $62.50/mo. Check your trade- ...See more"
+                            },
+                            {
+                                "title": "Vector 16 HX AI A2XW - Born for Performance",
+                                "link": "https://www.msi.com/Laptop/Vector-16-HX-AI-A2XWX",
+                                "snippet": "The Vector 16 HX AI A2XW features an Intel Core Ultra 9 processor, RTX 50 series GPU, 240W OverBoost, 24-zone RGB keyboard, and 240Hz QHD+ display."
+                            },
+                            {
+                                "title": "Cracking Value 5070ti Gaming - MSI Vector 16 HX AI 2025 ...",
+                                "link": "https://www.youtube.com/watch?v=Ei8dd8qSMHk",
+                                "snippet": "Cheapest RTX 5070 Ti Gaming Laptop has a Problem - MSI Vector 16 Review ... MSI Vector 16 HX AI Review: Core Ultra 9 + RTX 5080 for $2499?!See more"
+                            },
+                            {
+                                "title": "Intel Core Ultra 9 275HX - 32GB Memory - 2 TB SSD",
+                                "link": "https://www.newegg.com/msi-16-geforce-rtx-5070-ti-laptop-gpu-intel-core-ultra-9-275hx-32gb-memory-2-tb-ssd/p/N82E16834156739?srsltid=AfmBOor0bTvFnNQUzONqiPPFbCcddEKkCorjJBbmDt-JQJduH9f2HJhL",
+                                "snippet": "MSI - 16\" GeForce RTX 5070 Ti Laptop GPU - Intel Core Ultra 9 275HX - 32GB Memory - 2 TB SSD -Wi-Fi 7 Windows 11 Pro - Gaming Laptop - 240 Hz (Vector 16 HX AI ...See more"
+                            },
+                            {
+                                "title": "MSI Vector 16 HX AI 16 inch QHD+ Gaming Laptop Intel ...",
+                                "link": "https://www.walmart.com/ip/MSI-Vector-16-HX-AI-A2XW-Vector-16-HX-AI-A2XWHG-060US-16-Gaming-Notebook-QHD-Intel-Core-Ultra-9-275HX-32-GB-2-TB-SSD-Cosmo-Gray/15468913306",
+                                "snippet": "Powerful Performance: Equipped with an Intel Core Ultra 9-275HX processor and NVIDIA GeForce RTX 5070 Ti Laptop GPU, alongside 32GB DDR5 RAM and a 2TB NVMe SSD ...See more"
+                            },
+                            {
+                                "title": "The RTX 5070 Ti MSI Vector 16 HX is still just ...",
+                                "link": "https://www.pcgamer.com/hardware/gaming-laptops/im-not-just-tapping-the-sign-im-banging-it-with-a-sledgehammer-the-rtx-5070-ti-msi-vector-16-hx-is-still-just-usd1-299-this-black-friday/",
+                                "snippet": "I'm not just tapping the sign, I'm banging it with a sledgehammer: The RTX 5070 Ti MSI Vector 16 HX is still just $1,299 this Black Friday.See more"
+                            },
+                            {
+                                "title": "Cheapest RTX 5070 Ti Gaming Laptop has a Problem",
+                                "link": "https://www.youtube.com/watch?v=IDtIy6rEmbc",
+                                "snippet": "This is the cheapest RTX 5070Ti gaming laptop right now but there's a big problem that could make all that GPU power pointless."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 7,
+                "reasoning": [
+                    "Let me complete the research phase by gathering information on a few more top gaming laptop models for 2025."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "Alienware 16X Aurora 2025 Intel Ultra 9 RTX 5070 specifications price Dell",
+                        "num_docs_requested": 5,
+                        "retrieved_documents": [
+                            {
+                                "title": "Alienware 16X Aurora Gaming Laptop",
+                                "link": "https://www.dell.com/en-us/shop/dell-laptops/alienware-16x-aurora-gaming-laptop/spd/alienware-aurora-ac16251-gaming-laptop",
+                                "snippet": "Starting at $1,349.99 ; Processor. Intel\u00ae Core\u2122 Ultra 9 Processor 275HX (36MB cache, 24 cores, 2.1 to 5.4 GHz P-Core) ; Operating System. (Dell ..."
+                            },
+                            {
+                                "title": "Alienware 16 Aurora Gaming Laptop - Dell Technologies",
+                                "link": "https://www.dell.com/en-us/shop/dell-laptops/alienware-16-aurora-gaming-laptop/spd/alienware-aurora-ac16250-gaming-laptop",
+                                "snippet": "Processor Intel\u00ae Core\u2122 7-240H Series 2, 10 cores \u00b7 Operating System Windows 11 Home \u00b7 Graphics Card NVIDIA\u00ae GeForce RTX\u2122 5050 \u00b7 Memory 16 GB DDR5 ..."
+                            },
+                            {
+                                "title": "Alienware 16X Aurora 16\" 2.5K Gaming Laptop Intel Core ...",
+                                "link": "https://www.bestbuy.com/product/alienware-16x-aurora-16-2-5k-gaming-laptop-intel-core-ultra-9-275hx-32gb-memory-nvidia-geforce-rtx-5070-2tb-storage-interstellar-indigo/J3K4L6J6FG",
+                                "snippet": "Alienware - 16X Aurora - 16\" 2.5K Gaming Laptop - Intel Core Ultra 9 275HX - 32GB Memory - NVIDIA GeForce RTX 5070 - 2TB Storage - Interstellar ..."
+                            },
+                            {
+                                "title": "Intel Core Ultra 9 Gaming Laptops - Dell Technologies",
+                                "link": "https://www.dell.com/en-us/shop/dell-laptops/scr/laptops/gaming/appref=intel-core-ultra-9-processor",
+                                "snippet": "Powered by Intel's top-of-the-line Core Ultra 9 processors, these laptops offer unrivaled performance, breathtaking graphics, and seamless multitasking."
+                            },
+                            {
+                                "title": "Amazon.com: 2025 Alienware 16 Aurora Gaming Laptop ...",
+                                "link": "https://www.amazon.com/Alienware-R2-Display-GeForce-Keyboard/dp/B0D3L8DYKL",
+                                "snippet": "This laptop is equipped with a NVIDIA Geforce RTX 5060 Dedicated Graphics Card and a 10-Core Intel Core 7 CPU, allowing it to perform as a high-end gaming ..."
+                            },
+                            {
+                                "title": "Alienware Gaming Laptops | Dell USA",
+                                "link": "https://www.dell.com/en-us/gaming/alienware-laptops",
+                                "snippet": "Alienware 16X Aurora Gaming Laptop. Starting at $1,349.99. Starting at ... Customizable Specs. Processor. Up to Intel\u00ae Core\u2122 Ultra 9 275HX. OS. Windows 11 ..."
+                            },
+                            {
+                                "title": "Alienware's Cheapest Gaming Laptop has a Big Flaw",
+                                "link": "https://www.youtube.com/watch?v=l_S0M_cb0Ao",
+                                "snippet": "The Aurora 16 is Alienware's cheapest gaming laptop and with insane battery life cool thermals and decent build quality."
+                            },
+                            {
+                                "title": "Dell Alienware 16X Aurora Gaming Intel Ultra 9 275HX ...",
+                                "link": "https://www.ebay.com/itm/306579249509",
+                                "snippet": "Dell Alienware 16X Aurora Gaming Intel Ultra 9 275HX 5070 8GB RTX 32GB 1TB SSD 2 ; RAM Size \u00b7 32GB (2X16GB) Up to 5600MT/s DDR5 SoDIMM Non-ECC ; Processor \u00b7 Intel ..."
+                            },
+                            {
+                                "title": "Alienware 16X Aurora Review - Not What I Expected",
+                                "link": "https://www.youtube.com/watch?v=59E7lkChvUs",
+                                "snippet": "The 16X is supposed to be their premium mid-range gaming laptop sitting just above the lower tier Aurora 16 without the X."
+                            },
+                            {
+                                "title": "Dell Alienware 16X Aurora Gaming AI Laptop 16\" WQXGA ...",
+                                "link": "https://www.amazon.com/Dell-Alienware-24-core-Thunderbolt-Win11Pro/dp/B0FWCPD8LZ",
+                                "snippet": "64GB RAM | 4TB SSD. \u00b7 Equipped With The Most Powerful and Fast Intel 24-core Ultra 9 275HX Processor \u00b7 16\" WQXGA (2560x1600) 240Hz (100% DCI-P3, G-SYNC), ..."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 8,
+                "reasoning": [
+                    "I've gathered substantial research on 2025 gaming laptops. Let me mark this task as done and move to gathering detailed specifications."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "done"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "in_progress"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "pending"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "pending"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 9,
+                "reasoning": [
+                    "Let me search for a couple more top gaming laptop models to complete the specifications gathering."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "Razer Blade 16 2025 RTX 5080 OLED specifications price",
+                        "num_docs_requested": 5,
+                        "retrieved_documents": [
+                            {
+                                "title": "Thinnest Razer Blade Gaming Laptop - Razer Blade 16",
+                                "link": "https://www.razer.com/gaming-laptops/razer-blade-16?srsltid=AfmBOopLSvhNshuWEIPq8FGLOGafHK9gpmscdxh_A2fKIIW61T5jpoXO",
+                                "snippet": "Meet our new 16-inch laptop\u2014thinner, lighter, faster, and more powerful than ever. Perfect for gaming, creating, and working on the go."
+                            },
+                            {
+                                "title": "Razer Blade 16 [2025] Black, 16\" QHD+ 240Hz OLED, 2.0 ...",
+                                "link": "https://www.newegg.com/razer-blade-16-16-0-nvidia-geforce-rtx-5080-laptop-gpu-amd-ryzen-ai-9-365-qhd-32gb-memory-4-tb-ssd/p/2WC-001W-00730?srsltid=AfmBOoqcGqARX0QRBVNKJF9xcb5s-lbAStuwtYUZIm0RWH8i9C8pFI5X",
+                                "snippet": "Razer Blade 16 [2025] Black, 16\" QHD+ 240Hz OLED, 2.0 GHz Ryzen AI 9 365, RTX 5080, 32 GB LPDDR5X RAM, 4 TB PCIe SSD, Windows 11 Pro ; Fastest delivery in 3 days."
+                            },
+                            {
+                                "title": "Razer Blade 16 [2025] Black, 16",
+                                "link": "https://www.neweggbusiness.com/product/product.aspx?item=9b-2wc-001w-00703",
+                                "snippet": "Buy Razer Blade 16 [2025] Black, 16\" QHD+ 240Hz OLED, 2.0 GHz Ryzen AI 9 365, RTX 5080, 32 GB LPDDR5X RAM, 1 TB PCIe SSD, Windows 11 Home with fast shipping ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 (2025) gaming laptop review",
+                                "link": "https://www.pcgamer.com/hardware/gaming-laptops/razer-blade-16-2025-review/",
+                                "snippet": "Razer Blade 16 - QHD+ 240 Hz... Razer. $2,399.99 ; View Similar Amazon US. Amazon. No price information ; Walmart - View Similar. Walmart. No ..."
+                            },
+                            {
+                                "title": "QHD+ 240 Hz OLED - GeForce RTX 5070 - Black - Razer",
+                                "link": "https://www.razer.com/gaming-laptops/razer-blade-16/RZ09-05286EN3-R3U1?srsltid=AfmBOormb2w5jv2fr-U8CUcqLMnf6csmOk-k_a6Q91R5Sh3eiTWCljxM",
+                                "snippet": "GeForce RTX 5070 Ti (12 GB GDDR7 VRAM) + US$900.00; GeForce RTX 5080 (16 GB GDDR7 VRAM) + US$1,600.00. Display. Selected Option. QHD+ 240 Hz OLED. QHD+ 240 Hz ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 (2025) Review: Sleek and light but lags in ...",
+                                "link": "https://www.pcworld.com/article/2798692/razer-blade-16-2025-review.html",
+                                "snippet": "There are always some downsides to this formula, as the new Blade 16 ranges in price from $2,399 to $4,499 as tested here in a high-end ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 + RTX 5080 review",
+                                "link": "https://www.youtube.com/watch?v=3tW5ZZiIZWQ",
+                                "snippet": "The Razer Blade 16, in its Nvidia RTX 5090 config, offered some impressive performance results in a super slim package, but it has also been ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 Gaming Laptop: NVIDIA GeForce RTX 4090",
+                                "link": "https://www.amazon.com/Razer-Blade-Gaming-Laptop-i9-14900HX/dp/B0CPP726HK",
+                                "snippet": "Technical Specifications ; OLED 240 Hz (QHD+) \u00b7 32 GB DDR5-5600Hz (Up to 96 GB) \u00b7 2 TB PCIe 4.0 NVMe M.2 SSD (Up to 8 TB) \u00b7 Wi-Fi 7 \u00b7 Windows Hello built-in IR FHD w ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 RTX 5080",
+                                "link": "https://www.notebookcheck.net/Razer-Blade-16-RTX-5080.1055010.0.html",
+                                "snippet": "Specifications ; Processor. AMD Ryzen AI 9 365 10 x 2 - 5 GHz, 80 W PL2 / Short Burst, 75 W PL1 / Sustained, Strix Point (Zen 5) ; Graphics adapter. NVIDIA ..."
+                            },
+                            {
+                                "title": "Razer Blade 16 2025 (RTX 5080 version)",
+                                "link": "https://www.reddit.com/r/GamingLaptops/comments/1k0j50n/razer_blade_16_2025_rtx_5080_version/",
+                                "snippet": "This laptop cost me \u20ac3800, and I was expecting top-tier performance. Instead, I'm constantly questioning whether my GPU is even functioning ..."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 10,
+                "reasoning": [
+                    "Let me complete the specifications gathering by researching one more top gaming laptop model to have a complete set of 5 models for comparison."
+                ],
+                "actions": [
+                    {
+                        "action": "search",
+                        "query": "Lenovo Legion Pro 5i 2025 Intel Ultra 7 RTX 5070 specifications price",
+                        "num_docs_requested": 5,
+                        "retrieved_documents": [
+                            {
+                                "title": "Legion Pro 5i Gen 10 (16\u2033 Intel) Gaming Laptop",
+                                "link": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/len101g0040?srsltid=AfmBOopEr3z4h58TNn6z1-eNOhL-aujYn-rVUKxt8_kyfI---fZ02iQA",
+                                "snippet": "Processor Intel\u00ae Core\u2122 Ultra 7 255HX Processor (E-cores up to 4.50 GHz P-cores up to 5.20 GHz) \u00b7 Operating System Windows 11 Home 64 \u00b7 Graphic Card NVIDIA\u00ae ..."
+                            },
+                            {
+                                "title": "Legion 5i Gen 10 (15\u2033 Intel) Gaming Laptop",
+                                "link": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-5-series/lenovo-legion-5i-gen-10-(15-inch-intel)/len101g0042?srsltid=AfmBOopJVvp-xw40ByKYRcD_bajhhh8ORAQSYUV-mZS1NvKYqEqiKW6k",
+                                "snippet": "Intel\u00ae Core\u2122 Ultra 7 255HX Processor (E-cores up to 4.50 GHz P-cores up to 5.20 GHz); Operating System Windows 11 Home 64; Graphic Card NVIDIA\u00ae GeForce RTX\u2122 ..."
+                            },
+                            {
+                                "title": "Lenovo Legion Pro 5i Gen 10 16\" Gaming Laptop (2025 ...",
+                                "link": "https://www.amazon.com/Lenovo-Legion-Pro-5i-Gen/dp/B0F9XSW5HB",
+                                "snippet": "Lenovo Legion Pro 5i Gen 10 16\" Gaming Laptop (2025 Model) Intel Core Ultra 9 275HX 24C, NVIDIA GeForce RTX 5070 Ti 12GB, 32GB RAM, 2TB (1TB+1TB) NVMe SSD, 16.0 ..."
+                            },
+                            {
+                                "title": "Lenovo Legion Pro 5i (2025) Review - Choose Carefully",
+                                "link": "https://www.youtube.com/watch?v=g0v5i7D84Bs",
+                                "snippet": "Lenovo's Legion Pro 5i has a solid build a beautiful OLED screen and plenty of power to run modern games."
+                            },
+                            {
+                                "title": "Legion Pro 5i Gen 10 Intel (16\") with RTX 5070",
+                                "link": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-5i-gen-10-16-inch-intel/83f3000aus?srsltid=AfmBOoo3pYD8-MoIUpp1iW-2wvkz5oQTIh6RfzSSoh9NC76Xx4TYwu4n",
+                                "snippet": "Processor. Intel\u00ae Core\u2122 Ultra 7 255HX Processor (E-cores up to 4.50 GHz P-cores up to 5.20 GHz) ; Operating System. Windows 11 Home 64 ; Graphic Card. NVIDIA\u00ae ..."
+                            },
+                            {
+                                "title": "Lenovo - Legion Pro 5i 16\" 2.5k OLED Gaming Laptop",
+                                "link": "https://www.bestbuy.com/product/lenovo-legion-pro-5i-16-2-5k-oled-gaming-laptop-intel-core-ultra-9-275hx-32gb-memory-nvidia-geforce-rtx-5070-1tb-ssd-eclipse-black/JJGSHXJRCS",
+                                "snippet": "Lenovo - Legion Pro 5i 16\" 2.5k OLED Gaming Laptop - Intel Core Ultra 9 275HX 2025 - 32GB RAM - NVIDIA GeForce RTX 5070 - 1TB - Eclipse Black. ..."
+                            },
+                            {
+                                "title": "Legion Pro 7i Gen 10 (16\u2033 Intel) Gaming Laptop",
+                                "link": "https://www.lenovo.com/us/en/p/laptops/legion-laptops/legion-pro-series/legion-pro-7i-gen-10-16-inch-intel/len101g0039?srsltid=AfmBOoqkDcfcaLUliL2yX2Rf_N9H7uxQKpijswuMS3MpwOA58jhFH3Uk",
+                                "snippet": "Legion Pro 7i Gen 10 Intel (16\") with RTX\u2122 5080 \u00b7 Legion Pro 7i Gen 10 Intel (16\") with RTX\u2122 5080 Top view. Est Value. $3,559.99 ; Legion Pro 7i Gen 10 Intel (16\") ..."
+                            },
+                            {
+                                "title": "Lenovo Legion Pro 5i Gen 10 Gaming Laptop (2025)",
+                                "link": "https://www.amazon.com/Lenovo-Legion-Pro-Gaming-Laptop/dp/B0FSDH5HJZ",
+                                "snippet": "Lenovo Legion Pro 5i Gen 10 Gaming Laptop (2025) - GeForce RTX 5070 Ti, Intel 24 Core Ultra 9 275HX, 32GB RAM, 1TB SSD, 16.0\" WQXGA OLED 165Hz, 24zone RGB ..."
+                            },
+                            {
+                                "title": "Is the Legion Pro 5i Gen 10 intel (16\u201d) with RTX 5070 worth ...",
+                                "link": "https://www.reddit.com/r/GamingLaptops/comments/1nyscez/is_the_legion_pro_5i_gen_10_intel_16_with_rtx/",
+                                "snippet": "$1200 for a 5070 is a very good price. You'd expect to pay around 1400 for it, and 1600 with a QHD screen. 255HX is also one of the best CPUs ..."
+                            },
+                            {
+                                "title": "Lenovo Legion Pro 7i RTX 5070 Ti Gaming Laptop, 16 ...",
+                                "link": "https://www.walmart.com/ip/Lenovo-Legion-Pro-7i-16-WQXGA-OLED-240Hz-Gaming-Notebook-Intel-Core-Ultra-9-275HX-32GB-RAM-1TB-SSD-NVIDIA-GeForce-RTX-5070Ti-Eclipse-Black/16291514320",
+                                "snippet": "Lenovo Legion Pro 7i RTX 5070 Ti Gaming Laptop, 16\" WQXGA OLED 240Hz, Intel Ultra 9 275HX, NVIDIA GeForce RTX 5070 Ti, 32 GB RAM 1TB SSD Eclipse Black."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 11,
+                "reasoning": [
+                    "I've gathered comprehensive specifications for the top 5 gaming laptop models. Let me mark this task as done and proceed to create the comparison sheet."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "done"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "done"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "in_progress"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "pending"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 12,
+                "reasoning": [
+                    "Let me first check what sheets currently exist and then create a new sheet for the gaming laptop comparison."
+                ],
+                "actions": [
+                    {
+                        "action": "list_sheets",
+                        "sheets": [
+                            "Sheet2",
+                            "Taiwan Travel Plan",
+                            "Stock Portfolio Tracker"
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 13,
+                "reasoning": [
+                    "I'll create a new sheet for the gaming laptop comparison and populate it with the detailed specifications I've gathered."
+                ],
+                "actions": [
+                    {
+                        "action": "create_sheet",
+                        "sheet_title": "2025 Gaming Laptop Comparison"
+                    }
+                ]
+            },
+            {
+                "step_number": 14,
+                "reasoning": [
+                    "Now I'll create the comprehensive comparison sheet with all the specifications, prices, and pros/cons for the top 5 gaming laptops of 2025. Let me start by setting up the sheet structure."
+                ],
+                "actions": [
+                    {
+                        "action": "update_cell",
+                        "cell_data": [
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A1",
+                                "content": "2025 Gaming Laptop Comparison - Top 5 Models",
+                                "formatting": [
+                                    "bold",
+                                    "align:CENTER",
+                                    "merged:1x8"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A2",
+                                "content": "Model",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B2",
+                                "content": "Price",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C2",
+                                "content": "CPU",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D2",
+                                "content": "GPU",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E2",
+                                "content": "RAM",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F2",
+                                "content": "Storage",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G2",
+                                "content": "Screen",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H2",
+                                "content": "Pros",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I2",
+                                "content": "Cons",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J2",
+                                "content": "Value Score",
+                                "formatting": [
+                                    "bold",
+                                    "border-bottom"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A3",
+                                "content": "ASUS ROG Strix G16",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A4",
+                                "content": "MSI Vector 16 HX AI",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A5",
+                                "content": "Alienware 16X Aurora",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A6",
+                                "content": "Razer Blade 16",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A7",
+                                "content": "Lenovo Legion Pro 5i",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 15,
+                "reasoning": [
+                    "Now I'll continue populating the comparison sheet with the detailed specifications, prices, and pros/cons for each gaming laptop model."
+                ],
+                "actions": [
+                    {
+                        "action": "update_cell",
+                        "cell_data": [
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B3",
+                                "content": "$1,699",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B4",
+                                "content": "$1,659",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B5",
+                                "content": "$1,649",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B6",
+                                "content": "$2,399",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!B7",
+                                "content": "$1,489",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C3",
+                                "content": "Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C4",
+                                "content": "Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C5",
+                                "content": "Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C6",
+                                "content": "AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!C7",
+                                "content": "Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D3",
+                                "content": "NVIDIA RTX 5070 (8GB GDDR7)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D4",
+                                "content": "NVIDIA RTX 5070 Ti (12GB GDDR7)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D5",
+                                "content": "NVIDIA RTX 5070 (8GB GDDR7)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D6",
+                                "content": "NVIDIA RTX 5080 (16GB GDDR7)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!D7",
+                                "content": "NVIDIA RTX 5070 (8GB GDDR7)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E3",
+                                "content": "32GB DDR5-5600",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E4",
+                                "content": "16GB DDR5",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E5",
+                                "content": "32GB DDR5",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E6",
+                                "content": "32GB LPDDR5X",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E7",
+                                "content": "16GB DDR5",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F3",
+                                "content": "1TB PCIe 4.0 NVMe SSD",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F4",
+                                "content": "1TB NVMe SSD",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F5",
+                                "content": "2TB SSD",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F6",
+                                "content": "1TB PCIe SSD",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!F7",
+                                "content": "1TB NVMe SSD",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G3",
+                                "content": "16\" 2.5K 240Hz ROG Nebula IPS",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G4",
+                                "content": "16\" QHD+ 240Hz IPS",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G5",
+                                "content": "16\" 2.5K 240Hz IPS (G-SYNC)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G6",
+                                "content": "16\" QHD+ 240Hz OLED",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!G7",
+                                "content": "16\" 2.5K 165Hz OLED",
+                                "formatting": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 16,
+                "reasoning": [
+                    "I need to continue working on the comparison sheet by adding the pros, cons, and value scores for each gaming laptop model. Let me complete this task."
+                ],
+                "actions": [
+                    {
+                        "action": "update_cell",
+                        "cell_data": [
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H3",
+                                "content": "\u2022 Excellent build quality\n\u2022 Fast 240Hz display\n\u2022 Tool-free RAM/SSD upgrades\n\u2022 Effective cooling system",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H4",
+                                "content": "\u2022 Best price for RTX 5070 Ti\n\u2022 240W OverBoost for max performance\n\u2022 24-zone RGB keyboard\n\u2022 Wi-Fi 7 & Thunderbolt 5",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H5",
+                                "content": "\u2022 Premium aluminum build\n\u2022 Bright 240Hz G-SYNC display\n\u2022 Dell often has good deals\n\u2022 Excellent port selection",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H6",
+                                "content": "\u2022 Premium build quality\n\u2022 Stunning OLED display\n\u2022 Thin and lightweight design\n\u2022 Powerful audio system",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!H7",
+                                "content": "\u2022 Excellent value for money\n\u2022 Beautiful OLED screen\n\u2022 Solid build quality\n\u2022 Good battery life",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I3",
+                                "content": "\u2022 Slightly expensive for RTX 5070\n\u2022 Loud fans under load\n\u2022 Mostly plastic chassis",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I4",
+                                "content": "\u2022 Only 16GB RAM at this price\n\u2022 Loud cooling fans\n\u2022 Some quality control issues reported",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I5",
+                                "content": "\u2022 Single-zone RGB keyboard\n\u2022 No OLED option\n\u2022 Average battery life",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I6",
+                                "content": "\u2022 Very expensive\n\u2022 Disappointing battery life\n\u2022 Premium price for similar performance",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!I7",
+                                "content": "\u2022 Lower refresh rate (165Hz)\n\u2022 Only 16GB RAM standard\n\u2022 Less premium build than competitors",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J3",
+                                "content": "8.2/10",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J4",
+                                "content": "8.8/10",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J5",
+                                "content": "8.5/10",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J6",
+                                "content": "7.5/10",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!J7",
+                                "content": "9.0/10",
+                                "formatting": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 17,
+                "reasoning": [
+                    "Let me complete the comparison sheet by adding a summary section that highlights the best value option and provides additional analysis."
+                ],
+                "actions": [
+                    {
+                        "action": "update_cell",
+                        "cell_data": [
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A9",
+                                "content": "BEST VALUE ANALYSIS",
+                                "formatting": [
+                                    "bold",
+                                    "align:CENTER",
+                                    "merged:1x8",
+                                    "bg:#E6F3FF"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A10",
+                                "content": "\ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i",
+                                "formatting": [
+                                    "bold",
+                                    "bg:#90EE90"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A11",
+                                "content": "Why it's the best value:",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A12",
+                                "content": "\u2022 Lowest price ($1,489) with RTX 5070 performance",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A13",
+                                "content": "\u2022 Beautiful OLED display at this price point",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A14",
+                                "content": "\u2022 Solid build quality and good battery life",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!A15",
+                                "content": "\u2022 Excellent performance-to-price ratio",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E10",
+                                "content": "RUNNER-UP: MSI Vector 16 HX AI",
+                                "formatting": [
+                                    "bold",
+                                    "bg:#FFFACD"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E11",
+                                "content": "Why it's a great alternative:",
+                                "formatting": [
+                                    "bold"
+                                ]
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E12",
+                                "content": "\u2022 RTX 5070 Ti for only $1,659",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E13",
+                                "content": "\u2022 Higher GPU performance than competitors",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E14",
+                                "content": "\u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5)",
+                                "formatting": []
+                            },
+                            {
+                                "name": "2025 Gaming Laptop Comparison!E15",
+                                "content": "\u2022 240W OverBoost for maximum performance",
+                                "formatting": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 18,
+                "reasoning": [
+                    "Let me complete the current task by marking it as done and then proceed to the final analysis."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "done"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "done"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "done"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "in_progress"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 19,
+                "reasoning": [
+                    "Let me read the current sheet to verify everything is properly set up and then complete the final analysis."
+                ],
+                "actions": [
+                    {
+                        "action": "read_sheet",
+                        "sheet": "2025 Gaming Laptop Comparison",
+                        "sheet_content": "| Index | A | B | C | D | E | F | G | H | I | J |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 1 | 2025 Gaming Laptop Comparison - Top 5 Models {merged:1x8,align:CENTER,bold} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 2 | Model {border-bottom,bold} | Price {border-bottom,bold} | CPU {border-bottom,bold} | GPU {border-bottom,bold} | RAM {border-bottom,bold} | Storage {border-bottom,bold} | Screen {border-bottom,bold} | Pros {border-bottom,bold} | Cons {border-bottom,bold} | Value Score {border-bottom,bold} |\n| 3 | ASUS ROG Strix G16 {bold} | $1,699 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5-5600 | 1TB PCIe 4.0 NVMe SSD | 16\" 2.5K 240Hz ROG Nebula IPS | \u2022 Excellent build quality \u2022 Fast 240Hz display \u2022 Tool-free RAM/SSD upgrades \u2022 Effective cooling system | \u2022 Slightly expensive for RTX 5070 \u2022 Loud fans under load \u2022 Mostly plastic chassis | 8.2/10 |\n| 4 | MSI Vector 16 HX AI {bold} | $1,659 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 Ti (12GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" QHD+ 240Hz IPS | \u2022 Best price for RTX 5070 Ti \u2022 240W OverBoost for max performance \u2022 24-zone RGB keyboard \u2022 Wi-Fi 7 & Thunderbolt 5 | \u2022 Only 16GB RAM at this price \u2022 Loud cooling fans \u2022 Some quality control issues reported | 8.8/10 |\n| 5 | Alienware 16X Aurora {bold} | $1,649 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5 | 2TB SSD | 16\" 2.5K 240Hz IPS (G-SYNC) | \u2022 Premium aluminum build \u2022 Bright 240Hz G-SYNC display \u2022 Dell often has good deals \u2022 Excellent port selection | \u2022 Single-zone RGB keyboard \u2022 No OLED option \u2022 Average battery life | 8.5/10 |\n| 6 | Razer Blade 16 {bold} | $2,399 | AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz) | NVIDIA RTX 5080 (16GB GDDR7) | 32GB LPDDR5X | 1TB PCIe SSD | 16\" QHD+ 240Hz OLED | \u2022 Premium build quality \u2022 Stunning OLED display \u2022 Thin and lightweight design \u2022 Powerful audio system | \u2022 Very expensive \u2022 Disappointing battery life \u2022 Premium price for similar performance | 7.5/10 |\n| 7 | Lenovo Legion Pro 5i {bold} | $1,489 | Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" 2.5K 165Hz OLED | \u2022 Excellent value for money \u2022 Beautiful OLED screen \u2022 Solid build quality \u2022 Good battery life | \u2022 Lower refresh rate (165Hz) \u2022 Only 16GB RAM standard \u2022 Less premium build than competitors | 9.0/10 |\n| 8 |  |  |  |  |  |  |  |  |  |  |\n| 9 | BEST VALUE ANALYSIS {merged:1x8,align:CENTER,bold,bg:#e6f3ff} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 10 | \ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i {bold,bg:#90ee90} |  |  |  | RUNNER-UP: MSI Vector 16 HX AI {bold,bg:#fffacd} |  |  |  |  |  |\n| 11 | Why it's the best value: {bold} |  |  |  | Why it's a great alternative: {bold} |  |  |  |  |  |\n| 12 | \u2022 Lowest price ($1,489) with RTX 5070 performance |  |  |  | \u2022 RTX 5070 Ti for only $1,659 |  |  |  |  |  |\n| 13 | \u2022 Beautiful OLED display at this price point |  |  |  | \u2022 Higher GPU performance than competitors |  |  |  |  |  |\n| 14 | \u2022 Solid build quality and good battery life |  |  |  | \u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5) |  |  |  |  |  |\n| 15 | \u2022 Excellent performance-to-price ratio |  |  |  | \u2022 240W OverBoost for maximum performance |  |  |  |  |  |"
+                    }
+                ]
+            },
+            {
+                "step_number": 20,
+                "reasoning": [
+                    "I can see the comparison sheet is complete and looks great! Let me mark the final task as done and provide a summary of the analysis."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": [
+                            [
+                                "Research top 5 gaming laptop models released in 2025",
+                                "done"
+                            ],
+                            [
+                                "Gather detailed specifications for each model",
+                                "done"
+                            ],
+                            [
+                                "Create comparison sheet with specs, prices, and pros/cons",
+                                "done"
+                            ],
+                            [
+                                "Analyze and highlight the best value option",
+                                "done"
+                            ]
+                        ]
+                    }
+                ]
+            },
+            {
+                "step_number": 21,
+                "reasoning": [
+                    "Perfect! I have successfully completed all the tasks for your gaming laptop research project. Let me verify the final work by reading the completed comparison sheet one more time."
+                ],
+                "actions": [
+                    {
+                        "action": "read_sheet",
+                        "sheet": "2025 Gaming Laptop Comparison",
+                        "sheet_content": "| Index | A | B | C | D | E | F | G | H | I | J |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 1 | 2025 Gaming Laptop Comparison - Top 5 Models {merged:1x8,align:CENTER,bold} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 2 | Model {border-bottom,bold} | Price {border-bottom,bold} | CPU {border-bottom,bold} | GPU {border-bottom,bold} | RAM {border-bottom,bold} | Storage {border-bottom,bold} | Screen {border-bottom,bold} | Pros {border-bottom,bold} | Cons {border-bottom,bold} | Value Score {border-bottom,bold} |\n| 3 | ASUS ROG Strix G16 {bold} | $1,699 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5-5600 | 1TB PCIe 4.0 NVMe SSD | 16\" 2.5K 240Hz ROG Nebula IPS | \u2022 Excellent build quality \u2022 Fast 240Hz display \u2022 Tool-free RAM/SSD upgrades \u2022 Effective cooling system | \u2022 Slightly expensive for RTX 5070 \u2022 Loud fans under load \u2022 Mostly plastic chassis | 8.2/10 |\n| 4 | MSI Vector 16 HX AI {bold} | $1,659 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 Ti (12GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" QHD+ 240Hz IPS | \u2022 Best price for RTX 5070 Ti \u2022 240W OverBoost for max performance \u2022 24-zone RGB keyboard \u2022 Wi-Fi 7 & Thunderbolt 5 | \u2022 Only 16GB RAM at this price \u2022 Loud cooling fans \u2022 Some quality control issues reported | 8.8/10 |\n| 5 | Alienware 16X Aurora {bold} | $1,649 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5 | 2TB SSD | 16\" 2.5K 240Hz IPS (G-SYNC) | \u2022 Premium aluminum build \u2022 Bright 240Hz G-SYNC display \u2022 Dell often has good deals \u2022 Excellent port selection | \u2022 Single-zone RGB keyboard \u2022 No OLED option \u2022 Average battery life | 8.5/10 |\n| 6 | Razer Blade 16 {bold} | $2,399 | AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz) | NVIDIA RTX 5080 (16GB GDDR7) | 32GB LPDDR5X | 1TB PCIe SSD | 16\" QHD+ 240Hz OLED | \u2022 Premium build quality \u2022 Stunning OLED display \u2022 Thin and lightweight design \u2022 Powerful audio system | \u2022 Very expensive \u2022 Disappointing battery life \u2022 Premium price for similar performance | 7.5/10 |\n| 7 | Lenovo Legion Pro 5i {bold} | $1,489 | Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" 2.5K 165Hz OLED | \u2022 Excellent value for money \u2022 Beautiful OLED screen \u2022 Solid build quality \u2022 Good battery life | \u2022 Lower refresh rate (165Hz) \u2022 Only 16GB RAM standard \u2022 Less premium build than competitors | 9.0/10 |\n| 8 |  |  |  |  |  |  |  |  |  |  |\n| 9 | BEST VALUE ANALYSIS {merged:1x8,align:CENTER,bold,bg:#e6f3ff} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 10 | \ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i {bold,bg:#90ee90} |  |  |  | RUNNER-UP: MSI Vector 16 HX AI {bold,bg:#fffacd} |  |  |  |  |  |\n| 11 | Why it's the best value: {bold} |  |  |  | Why it's a great alternative: {bold} |  |  |  |  |  |\n| 12 | \u2022 Lowest price ($1,489) with RTX 5070 performance |  |  |  | \u2022 RTX 5070 Ti for only $1,659 |  |  |  |  |  |\n| 13 | \u2022 Beautiful OLED display at this price point |  |  |  | \u2022 Higher GPU performance than competitors |  |  |  |  |  |\n| 14 | \u2022 Solid build quality and good battery life |  |  |  | \u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5) |  |  |  |  |  |\n| 15 | \u2022 Excellent performance-to-price ratio |  |  |  | \u2022 240W OverBoost for maximum performance |  |  |  |  |  |"
+                    }
+                ]
+            },
+            {
+                "step_number": 22,
+                "reasoning": [
+                    "I have successfully completed all the tasks for your gaming laptop research project! Let me verify the final work and clear the todo list."
+                ],
+                "actions": [
+                    {
+                        "action": "read_sheet",
+                        "sheet": "2025 Gaming Laptop Comparison",
+                        "sheet_content": "| Index | A | B | C | D | E | F | G | H | I | J |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 1 | 2025 Gaming Laptop Comparison - Top 5 Models {merged:1x8,align:CENTER,bold} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 2 | Model {border-bottom,bold} | Price {border-bottom,bold} | CPU {border-bottom,bold} | GPU {border-bottom,bold} | RAM {border-bottom,bold} | Storage {border-bottom,bold} | Screen {border-bottom,bold} | Pros {border-bottom,bold} | Cons {border-bottom,bold} | Value Score {border-bottom,bold} |\n| 3 | ASUS ROG Strix G16 {bold} | $1,699 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5-5600 | 1TB PCIe 4.0 NVMe SSD | 16\" 2.5K 240Hz ROG Nebula IPS | \u2022 Excellent build quality \u2022 Fast 240Hz display \u2022 Tool-free RAM/SSD upgrades \u2022 Effective cooling system | \u2022 Slightly expensive for RTX 5070 \u2022 Loud fans under load \u2022 Mostly plastic chassis | 8.2/10 |\n| 4 | MSI Vector 16 HX AI {bold} | $1,659 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 Ti (12GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" QHD+ 240Hz IPS | \u2022 Best price for RTX 5070 Ti \u2022 240W OverBoost for max performance \u2022 24-zone RGB keyboard \u2022 Wi-Fi 7 & Thunderbolt 5 | \u2022 Only 16GB RAM at this price \u2022 Loud cooling fans \u2022 Some quality control issues reported | 8.8/10 |\n| 5 | Alienware 16X Aurora {bold} | $1,649 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5 | 2TB SSD | 16\" 2.5K 240Hz IPS (G-SYNC) | \u2022 Premium aluminum build \u2022 Bright 240Hz G-SYNC display \u2022 Dell often has good deals \u2022 Excellent port selection | \u2022 Single-zone RGB keyboard \u2022 No OLED option \u2022 Average battery life | 8.5/10 |\n| 6 | Razer Blade 16 {bold} | $2,399 | AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz) | NVIDIA RTX 5080 (16GB GDDR7) | 32GB LPDDR5X | 1TB PCIe SSD | 16\" QHD+ 240Hz OLED | \u2022 Premium build quality \u2022 Stunning OLED display \u2022 Thin and lightweight design \u2022 Powerful audio system | \u2022 Very expensive \u2022 Disappointing battery life \u2022 Premium price for similar performance | 7.5/10 |\n| 7 | Lenovo Legion Pro 5i {bold} | $1,489 | Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" 2.5K 165Hz OLED | \u2022 Excellent value for money \u2022 Beautiful OLED screen \u2022 Solid build quality \u2022 Good battery life | \u2022 Lower refresh rate (165Hz) \u2022 Only 16GB RAM standard \u2022 Less premium build than competitors | 9.0/10 |\n| 8 |  |  |  |  |  |  |  |  |  |  |\n| 9 | BEST VALUE ANALYSIS {merged:1x8,align:CENTER,bold,bg:#e6f3ff} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 10 | \ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i {bold,bg:#90ee90} |  |  |  | RUNNER-UP: MSI Vector 16 HX AI {bold,bg:#fffacd} |  |  |  |  |  |\n| 11 | Why it's the best value: {bold} |  |  |  | Why it's a great alternative: {bold} |  |  |  |  |  |\n| 12 | \u2022 Lowest price ($1,489) with RTX 5070 performance |  |  |  | \u2022 RTX 5070 Ti for only $1,659 |  |  |  |  |  |\n| 13 | \u2022 Beautiful OLED display at this price point |  |  |  | \u2022 Higher GPU performance than competitors |  |  |  |  |  |\n| 14 | \u2022 Solid build quality and good battery life |  |  |  | \u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5) |  |  |  |  |  |\n| 15 | \u2022 Excellent performance-to-price ratio |  |  |  | \u2022 240W OverBoost for maximum performance |  |  |  |  |  |"
+                    }
+                ]
+            },
+            {
+                "step_number": 23,
+                "reasoning": [
+                    "I have successfully completed all the tasks for your gaming laptop research project! Let me verify the final work one more time and then clear the todo list."
+                ],
+                "actions": [
+                    {
+                        "action": "read_sheet",
+                        "sheet": "2025 Gaming Laptop Comparison",
+                        "sheet_content": "| Index | A | B | C | D | E | F | G | H | I | J |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 1 | 2025 Gaming Laptop Comparison - Top 5 Models {merged:1x8,align:CENTER,bold} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 2 | Model {border-bottom,bold} | Price {border-bottom,bold} | CPU {border-bottom,bold} | GPU {border-bottom,bold} | RAM {border-bottom,bold} | Storage {border-bottom,bold} | Screen {border-bottom,bold} | Pros {border-bottom,bold} | Cons {border-bottom,bold} | Value Score {border-bottom,bold} |\n| 3 | ASUS ROG Strix G16 {bold} | $1,699 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5-5600 | 1TB PCIe 4.0 NVMe SSD | 16\" 2.5K 240Hz ROG Nebula IPS | \u2022 Excellent build quality \u2022 Fast 240Hz display \u2022 Tool-free RAM/SSD upgrades \u2022 Effective cooling system | \u2022 Slightly expensive for RTX 5070 \u2022 Loud fans under load \u2022 Mostly plastic chassis | 8.2/10 |\n| 4 | MSI Vector 16 HX AI {bold} | $1,659 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 Ti (12GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" QHD+ 240Hz IPS | \u2022 Best price for RTX 5070 Ti \u2022 240W OverBoost for max performance \u2022 24-zone RGB keyboard \u2022 Wi-Fi 7 & Thunderbolt 5 | \u2022 Only 16GB RAM at this price \u2022 Loud cooling fans \u2022 Some quality control issues reported | 8.8/10 |\n| 5 | Alienware 16X Aurora {bold} | $1,649 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5 | 2TB SSD | 16\" 2.5K 240Hz IPS (G-SYNC) | \u2022 Premium aluminum build \u2022 Bright 240Hz G-SYNC display \u2022 Dell often has good deals \u2022 Excellent port selection | \u2022 Single-zone RGB keyboard \u2022 No OLED option \u2022 Average battery life | 8.5/10 |\n| 6 | Razer Blade 16 {bold} | $2,399 | AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz) | NVIDIA RTX 5080 (16GB GDDR7) | 32GB LPDDR5X | 1TB PCIe SSD | 16\" QHD+ 240Hz OLED | \u2022 Premium build quality \u2022 Stunning OLED display \u2022 Thin and lightweight design \u2022 Powerful audio system | \u2022 Very expensive \u2022 Disappointing battery life \u2022 Premium price for similar performance | 7.5/10 |\n| 7 | Lenovo Legion Pro 5i {bold} | $1,489 | Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" 2.5K 165Hz OLED | \u2022 Excellent value for money \u2022 Beautiful OLED screen \u2022 Solid build quality \u2022 Good battery life | \u2022 Lower refresh rate (165Hz) \u2022 Only 16GB RAM standard \u2022 Less premium build than competitors | 9.0/10 |\n| 8 |  |  |  |  |  |  |  |  |  |  |\n| 9 | BEST VALUE ANALYSIS {merged:1x8,align:CENTER,bold,bg:#e6f3ff} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 10 | \ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i {bold,bg:#90ee90} |  |  |  | RUNNER-UP: MSI Vector 16 HX AI {bold,bg:#fffacd} |  |  |  |  |  |\n| 11 | Why it's the best value: {bold} |  |  |  | Why it's a great alternative: {bold} |  |  |  |  |  |\n| 12 | \u2022 Lowest price ($1,489) with RTX 5070 performance |  |  |  | \u2022 RTX 5070 Ti for only $1,659 |  |  |  |  |  |\n| 13 | \u2022 Beautiful OLED display at this price point |  |  |  | \u2022 Higher GPU performance than competitors |  |  |  |  |  |\n| 14 | \u2022 Solid build quality and good battery life |  |  |  | \u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5) |  |  |  |  |  |\n| 15 | \u2022 Excellent performance-to-price ratio |  |  |  | \u2022 240W OverBoost for maximum performance |  |  |  |  |  |"
+                    }
+                ]
+            },
+            {
+                "step_number": 24,
+                "reasoning": [
+                    "Perfect! I have successfully completed all the tasks for your gaming laptop research project. Let me verify the final work one more time and then clear the todo list."
+                ],
+                "actions": [
+                    {
+                        "action": "read_sheet",
+                        "sheet": "2025 Gaming Laptop Comparison",
+                        "sheet_content": "| Index | A | B | C | D | E | F | G | H | I | J |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n| 1 | 2025 Gaming Laptop Comparison - Top 5 Models {merged:1x8,align:CENTER,bold} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 2 | Model {border-bottom,bold} | Price {border-bottom,bold} | CPU {border-bottom,bold} | GPU {border-bottom,bold} | RAM {border-bottom,bold} | Storage {border-bottom,bold} | Screen {border-bottom,bold} | Pros {border-bottom,bold} | Cons {border-bottom,bold} | Value Score {border-bottom,bold} |\n| 3 | ASUS ROG Strix G16 {bold} | $1,699 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5-5600 | 1TB PCIe 4.0 NVMe SSD | 16\" 2.5K 240Hz ROG Nebula IPS | \u2022 Excellent build quality \u2022 Fast 240Hz display \u2022 Tool-free RAM/SSD upgrades \u2022 Effective cooling system | \u2022 Slightly expensive for RTX 5070 \u2022 Loud fans under load \u2022 Mostly plastic chassis | 8.2/10 |\n| 4 | MSI Vector 16 HX AI {bold} | $1,659 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 Ti (12GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" QHD+ 240Hz IPS | \u2022 Best price for RTX 5070 Ti \u2022 240W OverBoost for max performance \u2022 24-zone RGB keyboard \u2022 Wi-Fi 7 & Thunderbolt 5 | \u2022 Only 16GB RAM at this price \u2022 Loud cooling fans \u2022 Some quality control issues reported | 8.8/10 |\n| 5 | Alienware 16X Aurora {bold} | $1,649 | Intel Core Ultra 9 275HX (24 cores, 2.1-5.4 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 32GB DDR5 | 2TB SSD | 16\" 2.5K 240Hz IPS (G-SYNC) | \u2022 Premium aluminum build \u2022 Bright 240Hz G-SYNC display \u2022 Dell often has good deals \u2022 Excellent port selection | \u2022 Single-zone RGB keyboard \u2022 No OLED option \u2022 Average battery life | 8.5/10 |\n| 6 | Razer Blade 16 {bold} | $2,399 | AMD Ryzen AI 9 365 (10 cores, 2.0-5.0 GHz) | NVIDIA RTX 5080 (16GB GDDR7) | 32GB LPDDR5X | 1TB PCIe SSD | 16\" QHD+ 240Hz OLED | \u2022 Premium build quality \u2022 Stunning OLED display \u2022 Thin and lightweight design \u2022 Powerful audio system | \u2022 Very expensive \u2022 Disappointing battery life \u2022 Premium price for similar performance | 7.5/10 |\n| 7 | Lenovo Legion Pro 5i {bold} | $1,489 | Intel Core Ultra 7 255HX (16 cores, up to 5.2 GHz) | NVIDIA RTX 5070 (8GB GDDR7) | 16GB DDR5 | 1TB NVMe SSD | 16\" 2.5K 165Hz OLED | \u2022 Excellent value for money \u2022 Beautiful OLED screen \u2022 Solid build quality \u2022 Good battery life | \u2022 Lower refresh rate (165Hz) \u2022 Only 16GB RAM standard \u2022 Less premium build than competitors | 9.0/10 |\n| 8 |  |  |  |  |  |  |  |  |  |  |\n| 9 | BEST VALUE ANALYSIS {merged:1x8,align:CENTER,bold,bg:#e6f3ff} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} | {covered} |  |  |\n| 10 | \ud83c\udfc6 BEST VALUE: Lenovo Legion Pro 5i {bold,bg:#90ee90} |  |  |  | RUNNER-UP: MSI Vector 16 HX AI {bold,bg:#fffacd} |  |  |  |  |  |\n| 11 | Why it's the best value: {bold} |  |  |  | Why it's a great alternative: {bold} |  |  |  |  |  |\n| 12 | \u2022 Lowest price ($1,489) with RTX 5070 performance |  |  |  | \u2022 RTX 5070 Ti for only $1,659 |  |  |  |  |  |\n| 13 | \u2022 Beautiful OLED display at this price point |  |  |  | \u2022 Higher GPU performance than competitors |  |  |  |  |  |\n| 14 | \u2022 Solid build quality and good battery life |  |  |  | \u2022 Latest connectivity (Wi-Fi 7, Thunderbolt 5) |  |  |  |  |  |\n| 15 | \u2022 Excellent performance-to-price ratio |  |  |  | \u2022 240W OverBoost for maximum performance |  |  |  |  |  |"
+                    }
+                ]
+            },
+            {
+                "step_number": 25,
+                "reasoning": [
+                    "I have successfully completed all the tasks for your gaming laptop research project! Let me clear the todo list since all work has been verified and completed perfectly."
+                ],
+                "actions": [
+                    {
+                        "action": "write_todo",
+                        "todo_list": []
+                    }
+                ]
+            },
+            {
+                "step_number": 26,
+                "reasoning": [
+                    "Perfect! I have successfully completed your gaming laptop research project. Here's a summary of what I've accomplished:\n\n## \ud83c\udfaf **Project Completed Successfully**\n\n### **What I Delivered:**\n1. **Researched** the top 5 gaming laptop models released in 2025 from major brands (ASUS, MSI, Dell, Razer, Lenovo)\n2. **Gathered detailed specifications** including CPU, GPU, RAM, storage, screen, and pricing\n3. **Created a comprehensive comparison sheet** with pros/cons and value scores\n4. **Analyzed and highlighted** the best value option\n\n### **\ud83c\udfc6 Key Findings:**\n\n**BEST VALUE: Lenovo Legion Pro 5i** ($1,489)\n- **Why it wins:** Lowest price with RTX 5070 performance, beautiful OLED display, solid build quality, and excellent performance-to-price ratio\n- **Value Score:** 9.0/10\n\n**RUNNER-UP: MSI Vector 16 HX AI** ($1,659)\n- **Why it's great:** RTX 5070 Ti for excellent price, latest connectivity (Wi-Fi 7, Thunderbolt 5), and 240W OverBoost for maximum performance\n\n### **\ud83d\udcca Quick Comparison Highlights:**\n- **Price Range:** $1,489 - $2,399\n- **GPU Range:** RTX 5070 to RTX 5080\n- **Screen Types:** IPS, OLED, and premium displays\n- **CPU:** All feature latest Intel Core Ultra or AMD Ryzen AI processors\n\nThe comparison sheet is now complete and ready for your review. You can easily see which laptop offers the best balance of performance, features, and price for your gaming needs. The Lenovo Legion Pro 5i stands out as the clear winner for value-conscious buyers who want excellent gaming performance without breaking the bank!"
+                ],
+                "actions": []
+            }
+        ],
+        "total_steps": 26
+    }
+}

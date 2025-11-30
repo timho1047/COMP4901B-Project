@@ -11,3 +11,6 @@ wheels/
 .DS_Store
 
 .env
+
+# google service account json files
+*-*-*.json

@@ -7,6 +7,9 @@ requires-python = ">=3.13"
 dependencies = [
     "datasets>=2.14.0",
     "dotenv>=0.9.9",
+    "google-api-python-client>=2.187.0",
+    "google-auth-httplib2>=0.2.1",
+    "google-auth-oauthlib>=1.2.3",
     "huggingface-hub>=0.19.0",
     "langchain>=1.1.0",
     "langchain-deepseek>=1.0.1",
