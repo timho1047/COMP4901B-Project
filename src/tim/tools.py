@@ -52,26 +52,10 @@ def search_api_call(query: str, max_results: int):
     all_entries = list[SearchEntry]()
     for page in range(1, pages + 1):
         payload = json.dumps({"q": query, "page": page})
-        headers = {
-            "X-API-KEY": os.getenv("SERPER_API_KEY"),
-            "Content-Type": "application/json",
-        }
-        response = requests.request(
-            "POST", SERPER_SEARCH_URL, headers=headers, data=payload
-        )
-        limit = (
-            SERPER_ENTRIIES_IN_PAGE
-            if page <= pages
-            else max_results % SERPER_ENTRIIES_IN_PAGE
-        )
-        entries = [
-            {
-                "title": entry["title"],
-                "link": entry["link"],
-                "snippet": entry.get("snippet", "(No snippet available)"),
-            }
-            for entry in response.json()["organic"][:limit]
-        ]
+        headers = {"X-API-KEY": os.getenv("SERPER_API_KEY"),"Content-Type": "application/json"}
+        response = requests.request("POST", SERPER_SEARCH_URL, headers=headers, data=payload)
+        limit = (SERPER_ENTRIIES_IN_PAGE if page <= pages else max_results % SERPER_ENTRIIES_IN_PAGE)
+        entries = [{"title": entry["title"], "link": entry["link"], "snippet": entry.get("snippet", "(No snippet available)")} for entry in response.json()["organic"][:limit]]
         all_entries.extend(entries)
     return all_entries
 
@@ -91,50 +75,21 @@ def search(query: str, max_results: int, runtime: ToolRuntime):
     entries = search_api_call(query, max_results)
     formatted_entries = []
     for entry in entries:
-        formatted_entries.append(
-            "<Entry>\n"
-            + f"<Title>{entry["title"]}</Title>\n"
-            + f"<Link>{entry["link"]}</Link>\n"
-            + f"<Snippet>{entry["snippet"]}</Snippet>\n"
-            + "</Entry>\n"
-        )
+        formatted_entries.append("<Entry>\n"+ f"<Title>{entry["title"]}</Title>\n"+ f"<Link>{entry["link"]}</Link>\n"+ f"<Snippet>{entry["snippet"]}</Snippet>\n"+ "</Entry>\n")
     formatted_entries = f"<Entries>\n{''.join(formatted_entries)}</Entries>\n"
 
     return Command(
         update={
-            "messages": [
-                ToolMessage(
-                    content=formatted_entries, tool_call_id=runtime.tool_call_id
-                )
-            ],
-            "steps": [
-                Step(
-                    step_number=runtime.state["current_step"],
-                    actions=[
-                        SearchAction(
-                            action="search",
-                            query=query,
-                            num_docs_requested=max_results,
-                            retrieved_documents=entries,
-                        )
-                    ],
-                )
-            ],
+            "messages": [ToolMessage(content=formatted_entries, tool_call_id=runtime.tool_call_id)],
+            "steps": [Step(step_number=runtime.state["current_step"],actions=[SearchAction(action="search", query=query, num_docs_requested=max_results, retrieved_documents=entries)])]
         }
     )
 
 
 def browse_api_call(url: str):
     payload = json.dumps({"url": url, "includeMarkdown": True})
-    headers = {
-        "X-API-KEY": os.getenv("SERPER_API_KEY"),
-        "Content-Type": "application/json",
-    }
-
-    response = requests.request(
-        "POST", SERPER_SCRAPE_URL, headers=headers, data=payload
-    )
-
+    headers = {"X-API-KEY": os.getenv("SERPER_API_KEY"),"Content-Type": "application/json"}
+    response = requests.request("POST", SERPER_SCRAPE_URL, headers=headers, data=payload)
     try:
         return response.json()["markdown"]
     except Exception:
@@ -148,25 +103,10 @@ def browse(url: str, runtime: ToolRuntime):
     Args:
         url: The URL to browse the web for.
     """
-
     browsed_content = browse_api_call(url)
-
     return Command(
-        update={
-            "messages": [
-                ToolMessage(content=browsed_content, tool_call_id=runtime.tool_call_id)
-            ],
-            "steps": [
-                Step(
-                    step_number=runtime.state["current_step"],
-                    actions=[
-                        BrowseAction(
-                            action="browse", url=url, browsed_content=browsed_content
-                        )
-                    ],
-                )
-            ],
-        }
+        update={"messages": [ToolMessage(content=browsed_content, tool_call_id=runtime.tool_call_id)],
+                "steps": [Step(step_number=runtime.state["current_step"],actions=[BrowseAction(action="browse", url=url, browsed_content=browsed_content)])]}
     )
 
 

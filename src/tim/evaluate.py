@@ -99,7 +99,7 @@ def evaluate_batch_questions(
     questions: list[dict[Literal["id", "question", "answers"], str]],
     agent_type: Literal["search", "raw"] = "search",
 ):
-    with ThreadPoolExecutor(max_workers=20) as executor:
+    with ThreadPoolExecutor(max_workers=60) as executor:
         futures = [
             executor.submit(
                 evaluate_single_question,
@@ -127,7 +127,7 @@ def save_results(results: list[tuple[dict, dict]], output_dir: str, run_name: st
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     trajectory_file = output_dir / f"trajectories_{run_name}.jsonl"
-    prediction_file = output_dir / f"prediction_{run_name}.jsonl"
+    prediction_file = output_dir / f"predictions_{run_name}.jsonl"
 
     with trajectory_file.open("w") as t, prediction_file.open("w") as p:
         for trajectory, prediction in results:

@@ -24,13 +24,9 @@ load_dotenv()
 def create_agent[S: BaseAgentState](
     state_cls: type[S], system_prompt: str, tools: List[BaseTool]
 ):
-    llm = init_chat_model(
-        model="deepseek-chat", api_key=os.getenv("DEEPSEEK_API_KEY")
-    ).bind_tools(tools)
+    llm = init_chat_model(model="deepseek-chat", api_key=os.getenv("DEEPSEEK_API_KEY")).bind_tools(tools)
 
-    def invoke_llm(
-        messages: List[BaseMessage], state: S, max_retries: int = 3
-    ) -> AIMessage:
+    def invoke_llm(messages: List[BaseMessage], state: S, max_retries: int = 3) -> AIMessage:
         for _ in range(max_retries):
             try:
                 ai_message = llm.invoke(messages)
@@ -48,38 +44,18 @@ def create_agent[S: BaseAgentState](
     def agent(state: S, config: RunnableConfig) -> dict:
         if state["current_step"] >= config["configurable"]["max_steps"]:
             return {
-                "messages": [
-                    HumanMessage(
-                        content=f"<system_reminder>Reached the maximum number of steps ({config["configurable"]["max_steps"]}). Stop.</system_reminder>"
-                    )
-                ],
+                "messages": [HumanMessage(content=f"<system_reminder>Reached the maximum number of steps ({config["configurable"]["max_steps"]}). Stop.</system_reminder>")],
                 "answer": "<answer>failure</answer>",
             }
 
         if len(state["messages"]) == 0:  # At the beginning of the conversation
             human_message = HumanMessage(content=state["question"])
-            ai_message = invoke_llm(
-                [
-                    SystemMessage(content=system_prompt),
-                    human_message,
-                ],
-                state,
-            )
-            return {
-                "messages": [human_message, ai_message],
-                "current_step": state["current_step"] + 1,
-            }
+            ai_message = invoke_llm([SystemMessage(content=system_prompt), human_message], state)
+            return {"messages": [human_message, ai_message], "current_step": state["current_step"] + 1}
         else:
             system_reminder = f"<system_reminder>The current question your are investigating is: [{state['question']}]. If you have not yet found out the answer, please ignore this system reminder and continue to make use of tools provided to you (if any) to gather more information and think about how to answer the question. If you are confident that you have found out the answer, please use `submit_answer` tool to submit the answer.</system_reminder>"
 
-            ai_message = invoke_llm(
-                [
-                    SystemMessage(content=system_prompt),
-                    *state["messages"],
-                    HumanMessage(content=system_reminder),
-                ],
-                state,
-            )
+            ai_message = invoke_llm([SystemMessage(content=system_prompt), *state["messages"], HumanMessage(content=system_reminder)], state)
             return {"messages": [ai_message], "current_step": state["current_step"] + 1}
 
     def should_continue(state: S) -> Literal["agent", END]:
@@ -97,18 +73,11 @@ def create_agent[S: BaseAgentState](
         .compile(checkpointer=InMemorySaver())
     )
 
-
 def create_search_agent():
-    return create_agent(
-        BaseAgentState, SEARCH_AGENT_SYSTEM_PROMPT, [search, submit_answer]
-    )
-
+    return create_agent(BaseAgentState, SEARCH_AGENT_SYSTEM_PROMPT, [search, submit_answer])
 
 def create_raw_agent():
     return create_agent(BaseAgentState, RAW_AGENT_SYSTEM_PROMPT, [submit_answer])
 
-
 def create_browse_agent():
-    return create_agent(
-        BaseAgentState, BROWSE_AGENT_SYSTEM_PROMPT, [search, browse, submit_answer]
-    )
+    return create_agent(BaseAgentState, BROWSE_AGENT_SYSTEM_PROMPT, [search, browse, submit_answer])

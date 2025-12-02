@@ -16,3 +16,6 @@ spartan-vertex-480001-v8-97bafb060f7c.json
 
 direction_api_output_test.json
 weather_api_output_test.json
+
+# Google Cloud credentials
+*-*-*.json
