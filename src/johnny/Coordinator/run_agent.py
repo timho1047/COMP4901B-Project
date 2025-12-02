@@ -108,7 +108,7 @@ if __name__ == "__main__":
         "suggest when I should eat lunch and dinner, add the reservations to my calendar."
     )
     user_request_task_3=(
-        "I am in my Home Hoi Lai Estate. Read my calendar for tomorrow, "
+        "I am in my Home Hoi Lai Estate. Read my calendar for today, "
         "Check are there any conflicting meetings and help me to resolve them."
     )
 
