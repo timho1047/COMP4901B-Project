@@ -19,7 +19,7 @@ subprocess.run(
         "run",
         "grade_with_em.py",
         "--input",
-        f"{args.result_dir}/{args.run_name}/prediction_{args.run_name}.jsonl",
+        f"{args.result_dir}/{args.run_name}/predictions_{args.run_name}.jsonl",
         "--output",
         f"{args.result_dir}/{args.run_name}/results_{args.run_name}_em.json",
     ]
@@ -37,7 +37,7 @@ subprocess.run(
         "--api_key",
         os.getenv("DEEPSEEK_API_KEY"),
         "--input",
-        f"{args.result_dir}/{args.run_name}/prediction_{args.run_name}.jsonl",
+        f"{args.result_dir}/{args.run_name}/predictions_{args.run_name}.jsonl",
         "--output",
         f"{args.result_dir}/{args.run_name}/results_{args.run_name}_llm_judge.json",
     ]
