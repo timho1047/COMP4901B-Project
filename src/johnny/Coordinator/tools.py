@@ -39,7 +39,7 @@ def list_calendar_events(date: str = None, count: int = 10):
             header=f"--- EVENTS FOR {date} ---"
         else:
             # Upcoming
-            time_min=datetime.datetime.utcnow().isoformat() + 'Z'
+            time_min=datetime.datetime.now(datetime.timezone.utc).isoformat()
             time_max=None
             header="--- UPCOMING EVENTS ---"
 
@@ -257,11 +257,77 @@ def get_daily_forecast(location_name: str, days: int = 3):
     except Exception as e:
         return f"Error fetching forecast: {e}"
 
+@tool("reschedule_calendar_event", description="Reschedule an existing calendar event to a new start time while preserving its duration. Provide the event title and the new start time in ISO format.")
+def reschedule_calendar_event(event_title: str, new_start_time: str):
+    try:
+        google_calendar_service=get_calendar_service()
+        
+        # Find the event first by title
+        now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+        events_result=google_calendar_service.events().list(
+            calendarId=CALENDAR_ID, 
+            timeMin=now,
+            q=event_title,
+            maxResults=1,
+            singleEvents=True,
+            orderBy='startTime'
+        ).execute()
+        
+        events=events_result.get('items', [])
+        if not events:
+            return f"Could not find an upcoming event called '{event_title}'."
+        
+        target_event=events[0]
+        event_id=target_event['id']
+        
+        # Calculate Original Duration since need to preserve the length of the event
+        old_start=target_event['start'].get('dateTime')
+        old_end=target_event['end'].get('dateTime')
+        
+        if not old_start:
+             return "Cannot reschedule all-day events with this tool."
+
+        fmt="%Y-%m-%dT%H:%M:%S%z"
+        
+        try:
+            start_dt=datetime.datetime.fromisoformat(old_start)
+            end_dt=datetime.datetime.fromisoformat(old_end)
+        except:
+            start_dt=datetime.datetime.strptime(old_start.replace('Z', '+08:00'), fmt)
+            end_dt=datetime.datetime.strptime(old_end.replace('Z', '+08:00'), fmt)
+            
+        duration=end_dt-start_dt
+
+        # Calculate New End Time
+        new_start_dt=datetime.datetime.fromisoformat(new_start_time)
+        new_end_dt=new_start_dt+duration
+        
+        # Update the Event
+        target_event['start']['dateTime']=new_start_dt.isoformat()
+        target_event['end']['dateTime']=new_end_dt.isoformat()
+        
+        # Clear 'date' field if it exists
+        target_event['start'].pop('date', None)
+        target_event['end'].pop('date', None)
+
+        updated_event=google_calendar_service.events().update(
+            calendarId=CALENDAR_ID, 
+            eventId=event_id, 
+            body=target_event
+        ).execute()
+
+        return f"Success! Moved '{event_title}' to {new_start_time}. Link: {updated_event.get('htmlLink')}"
+
+    except Exception as e:
+        return f"Error rescheduling event: {e}"
+    
+
 # Export the list of tools
-tools_list=[list_calendar_events,create_calendar_event,get_daily_forecast,find_route_directions]
+tools_list=[list_calendar_events,create_calendar_event,get_daily_forecast,find_route_directions,reschedule_calendar_event]
 
 # if __name__ == "__main__":
     # print(list_calendar_events("2025-12-03",5))
     # print(create_calendar_event("LunchTime","2025-12-03T10:00:00",2))
     # print(find_route_directions("Hoi Lai Estate","The Hong Kong University of Science and Technology","transit","2025-12-03T08:00:00"))
     # print(get_daily_forecast("Hong Kong",2))
+    # print(reschedule_calendar_event("Private Tutorial","2025-12-03T18:00:00"))

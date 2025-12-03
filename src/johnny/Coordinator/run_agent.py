@@ -99,9 +99,17 @@ def running_agent(user_request: str):
         save_trajectory(final_state["messages"])
 
 if __name__ == "__main__":
-    user_request = (
+    user_request_task_1=(
         "I am in my Home Hoi Lai Estate. Read my calendar for tomorrow, "
-        "check the weather, plan my route between meetings, "
-        "suggest when I should eat lunch and dinner, and remind me if I need an umbrella."
+        "check the weather, plan my route between meetings and remind me if I need an umbrella."
     )
-    running_agent(user_request)
+    user_request_task_2=(
+        "I am in my Home Hoi Lai Estate. Read my calendar for tomorrow, "
+        "suggest when I should eat lunch and dinner, add the reservations to my calendar."
+    )
+    user_request_task_3=(
+        "I am in my Home Hoi Lai Estate. Read my calendar for today, "
+        "Check are there any conflicting meetings and help me to resolve them."
+    )
+
+    running_agent(user_request_task_1)
