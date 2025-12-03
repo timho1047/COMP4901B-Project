@@ -5,7 +5,7 @@ import json
 import os
 
 PROJECT_ROOT=Path(__file__).parent.parent.parent.parent
-OUTPUT_DIR=PROJECT_ROOT/"results"/"Johnny"/"coordinator"
+OUTPUT_DIR=PROJECT_ROOT/"results"/"part2"/"coordinator"
 
 RECURSION_LIMIT=50
 MAX_STEPS=20
